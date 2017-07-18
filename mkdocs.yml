@@ -8,8 +8,7 @@ pages:
     - Bonjour le monde: hello_world.md
     - A propos: about.md
 
-
-theme_dir: 'mkdocs-material/material'
+theme: 'material'
 
 markdown_extensions:
     - footnotes
