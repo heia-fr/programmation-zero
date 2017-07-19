@@ -1,6 +1,6 @@
 # Les nombres impairs
 
-On aimerais écrire un programme qui affiche les nombres entiers impairs entre 1 et 100.
+On aimerait écrire un programme qui affiche les nombres entiers impairs entre 1 et 100.
 
 Une première approche consiste à énumérer tous les nombres entre 1 et 100 et de ne les afficher que si ils sont impairs.
 Mais comment vérifier si un nombre est pair ou impair?
@@ -15,7 +15,7 @@ Voici donc un programme simple qui énumère les nombres entiers entre 1 et 100 
 ``` kotlin
 fun main(args: Array<String>) {
     for (i in 1 until 100) {
-        if (i % 2 == 1) { // si i est imapair
+        if (i % 2 == 1) { // si i est impair
             println(i)
         }
     }
@@ -24,11 +24,15 @@ fun main(args: Array<String>) {
 
 L'instruction `for` permet de parcourir les éléments d'une liste. Ici nous avons besoin de la liste des nombres entre 1 et 100 et 
 en Kotlin, nous représentons ceci avec `i in 1 until 100`. Cette construction donne effectivement les nombres entre 0 et 99 car
-la limite supérieure (100) n'est pas comprise dans la liste. Si on voulait avoir une liste y-compris 100, on aurait écrit `i in 1..100`.
+la limite supérieure (100) n'est pas comprise dans la liste. Si on voulait avoir une liste y compris 100, on aurait écrit `i in 1..100`.
 Comme 100 n'est pas impair, il ne sera pas affiché et dans notre cas précis, ça ne ferait pas de différence.
 
-Ce programme fonctionne, mais ce n'est ni le plus simple, ni le plus efficace. Une meilleure solution serait de
-générer les nombres de 1 à 100 avec un incrémen de 2. En Kotlin, on peut définir l'incrément (saut) avec le mot clé `step`.
+Pour ne faire quelque chose que lorsqu'une condition est remplie (ici la condition c'est que le nombre soit impair), on utilise
+l'instruction `if`. Dans le jargon informatique, on parle d'une *instruction conditionnelle*. Les instructions qui seront
+faites si la condition est remplie sont délimitées par les accolades `{` et `}`. 
+
+Ce programme fonctionne, mais ce n'est ni le plus simple ni le plus efficace. Une meilleure solution serait de
+générer les nombres de 1 à 100 avec un incrément de 2. En Kotlin, on peut définir l'incrément (saut) avec le mot clé `step`.
 
 Voici cette deuxième version :
 
@@ -43,7 +47,7 @@ Voici cette deuxième version :
 
 C'est la version que nous préférons.
 
-On aurait aussi pû énumérer les nombres entre 0 et 50 (50 non compris) et afficher chaque nombre en le multipliant par 2 et en additionnant 1:
+On aurait aussi pu énumérer les nombres entre 0 et 50 (50 non compris) et afficher chaque nombre en le multipliant par 2 et en additionnant 1:
 
 ``` kotlin
 fun main(args: Array<String>) {
