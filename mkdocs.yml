@@ -6,6 +6,8 @@ pages:
     - Introduction: index.md
     - Installation: install.md
     - Bonjour le monde: hello_world.md
+    - Les nombres impairs: odd_numbers.md
+    - La suite de Fibonacci: fibonacci.md
     - A propos: about.md
 
 theme: 'material'
@@ -27,6 +29,10 @@ markdown_extensions:
     - pymdownx.superfences
     - pymdownx.tasklist(custom_checkbox=true)
     - pymdownx.tilde
+    - mdx_math
+
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 extra:
     palette:
