@@ -8,7 +8,7 @@ d'un ordinateur avec les caractéristiques suivantes:
   * Au minimum 1 GB de mémoire vive (RAM); recommandé 2 GB.
   * Un disque dur (ou SSD) avec au minimum 500 MB d'espace libre pour installer
     les programmes et au minimum 1 GB pour les caches.
-  * Un écran avec une résolution minumum de 1024x768.
+  * Un écran avec une résolution minimum de 1024x768.
 
 ## JetBrain IntelliJ IDEA Community Edition
 
@@ -18,19 +18,20 @@ ce logiciel depuis le site de JetBrain.
 
 ## Kotlin
 
-Le langage [Kotlin](https://kotlinlang.org/) est inclus dans l'environnement de développement «IntelliJ IDEA Community Edition». Vou trouverez une
+Le langage [Kotlin](https://kotlinlang.org/) est inclus dans l'environnement de développement «IntelliJ IDEA Community Edition». Vous trouverez une
 [Documentation](https://kotlinlang.org/docs/reference/) abondante sur Internet.
 
+## Java
 
-## Java et Eclipse (optionnel)
-
-Pour le cours de première année, vous aurez besoin de Java. Vous pouvez le
+Kotlin génère du code pour la machine virtuelle «Java» et pour exécuter vos programmes, vous aurez besoin de Java.
+Vous pouvez le
 [télécharger](https://www.java.com/fr/download/) gratuitement depuis le
-site Internet de java. Vous n'en aurez cependant pas besoin pour ce cours
-d'introduction.
+site Internet de java.
 
-Le cours de première année vous expliquera également comment utiliser
+## Eclipse (optionnel)
+
+Le cours de première année vous expliquera comment utiliser
 l'environnement de développement [Eclipse](https://www.eclipse.org/).
 Vous pouvez 
 [télécharger Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/oxygenr)
-sur le site de Eclipse.
+sur le site d’Eclipse. Eclipse n'est cependant pas nécessaire pour ce cours d'introduction.
