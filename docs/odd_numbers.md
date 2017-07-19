@@ -1,5 +1,11 @@
 # Les nombres impairs
 
+!!! quote "Paul Verlaine (Art poétique)"
+    De la musique avant toute chose,  
+    Et pour cela préfère l'Impair  
+    Plus vague et plus soluble dans l'air,  
+    Sans rien en lui qui pèse ou qui pose.
+
 On aimerait écrire un programme qui affiche les nombres entiers impairs entre 1 et 100.
 
 Une première approche consiste à énumérer tous les nombres entre 1 et 100 et de ne les afficher que si ils sont impairs.
