@@ -19,7 +19,7 @@ ce logiciel depuis le site de JetBrain.
 ## Kotlin
 
 Le langage [Kotlin](https://kotlinlang.org/) est inclus dans l'environnement de développement «IntelliJ IDEA Community Edition». Vous trouverez une
-[Documentation](https://kotlinlang.org/docs/reference/) abondante sur Internet.
+[documentation](https://kotlinlang.org/docs/reference/) détailée sur Internet.
 
 ## Java
 
