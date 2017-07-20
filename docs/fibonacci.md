@@ -1,7 +1,7 @@
 # La suite de Fibonacci
 
 <center>
-<img src="/images/Fibonacci2.jpg" width="200">
+<img src="../images/Fibonacci2.jpg" width="200">
 </center>
 
 [Leonardo Fibonacci](https://fr.wikipedia.org/wiki/Leonardo_Fibonacci) 
