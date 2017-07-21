@@ -21,9 +21,28 @@ $$ Fib_1 = 1 $$
 
 $$ \forall n > 1, Fib_n = Fib_{n-1} + Fib_{n-2} $$
 
+On peut écrire cette définition pratiquement mot pour mot de la manière suivante :
 Nous aimerions écrire un programme qui affiche les premiers nombres de cette suite de
 Fibonacci.
 
+```kotlin
+fun fib(n : Int) : Int = 
+    if(n == 0) 0
+    else if(n == 1) 1
+    else  fib(n - 1) + fib(n - 2)
+```
+
+On peut constater que nous n'avons pas la même structure
+que pour les fonctions précédentes. Le corps de la fonction n'est pas un _block_
+mais une expression, ce qui nous évite de devoir utiliser le mot clé _return_.
+
+!!! tip "Avancé"
+    De la même manière que pour les nombres impairs, on peut aussi définir un «stream»
+    de nombre de fibonacci.
+    
+    ```kotlin
+    
+    ```
 Voici une première version de ce programme:
 
 ``` kotlin
