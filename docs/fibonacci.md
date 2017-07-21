@@ -39,5 +39,12 @@ mais une expression, ce qui nous évite de devoir utiliser le mot clé _return_.
     de nombre de fibonacci.
     
     ```kotlin
-    
+    val fibStream: Sequence<Int> =
+            generateSequence(Pair(0, 1)) { Pair(it.second, it.first + it.second) }
+                    .map { it.first }
     ```
+
+!!! note "Exercice"
+    En utilisant la variable _fibStream_ et en vous insipirant du code similaire pour
+    les nombres impairs, écrivez une fonction qui affiche tous les nombres de Fibonacci
+    plus petit qu'un nombre passer en paramètre.
