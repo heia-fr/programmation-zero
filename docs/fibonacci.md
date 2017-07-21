@@ -89,7 +89,7 @@ fib0 = fib1
 fib1 += t
 ```
 
-Pourquoi avons-nous utiliser une nouvelle variable `t`? En fait, nous aimerions écrire
+Pourquoi avons-nous utilisé une nouvelle variable `t`? En fait, nous aimerions écrire
 ceci:
 
 !!! bug ""
