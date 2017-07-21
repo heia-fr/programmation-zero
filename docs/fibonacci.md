@@ -165,8 +165,8 @@ on peut l'écrire pratiquement mot pour mot en Kotlin de la manière suivante :
 
 ```kotlin
 fun fib(n : Int) : Int = 
-    if(n == 0) 0
-    else if(n == 1) 1
+    if (n == 0) 0
+    else if (n == 1) 1
     else  fib(n - 1) + fib(n - 2)
 ```
 
