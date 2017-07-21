@@ -160,6 +160,33 @@ fun printFibonacci(max: Int) {
 Au lieu d'écrire une fonction qui affiche la suite de Fibonacci, on pourrait
 aussi écrire une fonction qui calcule et *retourne* le n-ième nombre de la suite.
 
+Voici une implémentation possible qui affiche les 12 premiers nombres de la suite:
+
+``` kotlin
+fun Fibonacci(n: Int) : Int {
+    var fib0 = 0
+    var fib1 = 1
+    for (i in 1..n) {
+        fib1 = fib1 + fib0
+        fib0 = fib1 - fib0
+    }
+    return fib0
+}
+
+fun main(args: Array<String>) {
+    for (i in 0 until 12) {
+        println(Fibonacci(i))
+    }
+}
+```
+
+Cette fois, la fonction `Fibonacci` doit retourner une valeur, et nous indiquons
+ceci avec le `: Int` qui suit les arguments entre parenthèses. Ceci indique
+que la fonction est censée retourner quelque chose et ce quelque chose est de
+type entier (`Int`). Dans le corps de la fonction, on doit avoir une instruction `return`
+qui, comme son nom l'indique, *retourne* la valeur calculée.
+
+
 Si on reprend la définition mathématique de la suite de Fibonacci,
 on peut l'écrire pratiquement mot pour mot en Kotlin de la manière suivante :
 
@@ -176,7 +203,7 @@ mais une expression, ce qui nous évite de devoir utiliser le mot clé _return_.
 
 !!! tip "Avancé"
     De la même manière que pour les nombres impairs, on peut aussi définir un «stream»
-    de nombre de fibonacci.
+    de nombre de Fibonacci.
     
     ```kotlin
     
