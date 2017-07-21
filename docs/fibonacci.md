@@ -239,7 +239,7 @@ en détail dans une leçon suivante.
     de \(n\), noté \(n!\) est définie comme suit:
     
     $$
-    n! = \prod_{1<=i<=n} i = 1 \times 2 \times 2 \times 3 \times \dots \ \times (n-1) \ \times n
+    n! = \prod_{1<=i<=n} i = 1 \times 2 \times 3 \times 4 \times \dots \ \times (n-1) \ \times n
     $$
     
 !!! note "Exercice 3"
