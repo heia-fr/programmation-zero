@@ -181,3 +181,33 @@ mais une expression, ce qui nous évite de devoir utiliser le mot clé _return_.
     ```kotlin
     
     ```
+    
+!!! note "Exercice"
+    Si on vous donne un programme qui définit deux variables `x` et `y`:
+    
+    ``` kotlin
+    var x = 12
+    var y = 7
+    ```
+    
+    compléter ce programme pour *inverser* les valeurs de x et de y. Commencez
+    par utiliser une variable temporaire `t`. Essayez ensuite d'inverser
+    les valeurs de x et de y sans avoir besoin de variable temporaire.
+    
+!!! note "Exercice"
+    Ecrivez une fonction `fact(n: Int): Int` qui retourne la *factorielle* d'un nombre. La factorielle
+    de \(n\), noté \(n!\) est définie comme suit:
+    
+    $$
+    n! = \prod_{1<=i<=n} i = 1 \times 2 \times 2 \times 3 \times \dots \ \times (n-1) \ \times n
+    $$
+    
+!!! note "Exercice"
+    Le nombre d'Euler \(e\) peut être défini de la manière suivante:
+    
+    $$
+    e = 1 + \frac{1}{2!} + \frac{1}{3!} + \frac{1}{4!} + \frac{1}{5!} + \frac{1}{6!} \dots
+    $$
+    
+    Ecrivez un programme qui affiche les 100 premières itérations de l'approximation
+    de \(e\).
