@@ -157,6 +157,9 @@ fun printFibonacci(max: Int) {
 }
 ```
 
+Au lieu d'écrire une fonction qui affiche la suite de Fibonacci, on pourrait
+aussi écrire une fonction qui calcule et *retourne* le n-ième nombre de la suite.
+
 Si on reprend la définition mathématique de la suite de Fibonacci,
 on peut l'écrire pratiquement mot pour mot en Kotlin de la manière suivante :
 
