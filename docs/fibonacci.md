@@ -15,11 +15,14 @@ Dans la suite ci-dessus, le prochain nombre est: \(21 + 34 = 55\).
 
 On peut formaliser cette suite de la manière suivante:
 
-$$ Fib_0 = 0 $$
+$$
+\begin{aligned}
+Fib_0 &=& 0 \\\\
+Fib_1 &=& 1 \\\\
+\forall n > 1, Fib_n &=& Fib_{n-1} + Fib_{n-2}
+\end{aligned}
+$$
 
-$$ Fib_1 = 1 $$  
-
-$$ \forall n > 1, Fib_n = Fib_{n-1} + Fib_{n-2} $$
 
 ## Programme simple pour afficher la suite de Fibonacci
 
