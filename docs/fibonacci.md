@@ -194,6 +194,8 @@ mais une expression, ce qui nous évite de devoir utiliser le mot clé _return_.
     par utiliser une variable temporaire `t`. Essayez ensuite d'inverser
     les valeurs de x et de y sans avoir besoin de variable temporaire.
     
+    [Solution](https://gitlab.com/HEIA-FR/programmation-zero/snippets/1668689)
+    
 !!! note "Exercice"
     Ecrivez une fonction `fact(n: Int): Int` qui retourne la *factorielle* d'un nombre. La factorielle
     de \(n\), noté \(n!\) est définie comme suit:
@@ -206,7 +208,7 @@ mais une expression, ce qui nous évite de devoir utiliser le mot clé _return_.
     Le nombre d'Euler \(e\) peut être défini de la manière suivante:
     
     $$
-    e = 1 + \frac{1}{2!} + \frac{1}{3!} + \frac{1}{4!} + \frac{1}{5!} + \frac{1}{6!} \dots
+    e = 1 + \frac{1}{2!} + \frac{1}{3!} + \frac{1}{4!} + \frac{1}{5!} + \frac{1}{6!} + \dots
     $$
     
     Ecrivez un programme qui affiche les 100 premières itérations de l'approximation
