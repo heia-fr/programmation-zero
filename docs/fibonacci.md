@@ -21,6 +21,8 @@ $$ Fib_1 = 1 $$
 
 $$ \forall n > 1, Fib_n = Fib_{n-1} + Fib_{n-2} $$
 
+## Programme simple pour afficher la suite de Fibonacci
+
 Nous aimerions écrire un programme qui affiche les premiers nombres de cette suite de
 Fibonacci.
 
@@ -157,6 +159,8 @@ fun printFibonacci(max: Int) {
 }
 ```
 
+## Fonction qui retourne une valeur au lieu de l'afficher
+
 Au lieu d'écrire une fonction qui affiche la suite de Fibonacci, on pourrait
 aussi écrire une fonction qui calcule et *retourne* le n-ième nombre de la suite.
 
@@ -191,15 +195,20 @@ Si on reprend la définition mathématique de la suite de Fibonacci,
 on peut l'écrire pratiquement mot pour mot en Kotlin de la manière suivante :
 
 ```kotlin
-fun fib(n : Int) : Int = 
-    if (n == 0) 0
+fun fibonacci(n : Int) : Int = 
+    if      (n == 0) 0
     else if (n == 1) 1
-    else fib(n - 1) + fib(n - 2)
+    else             fibonacci(n - 1) + fibonacci(n - 2)
 ```
 
 On peut constater que nous n'avons pas la même structure
 que pour les fonctions précédentes. Le corps de la fonction n'est pas un _block_
 mais une expression, ce qui nous évite de devoir utiliser le mot clé _return_.
+
+Notez que nous avons appelé la fonction `fibonacci` à l'intérieur de 
+la fonction `fibonacci` elle-même. Cette construction s'appelle la *récursivité*
+et c'est on concept très puissant en programmation. Nous y reviendrons plus
+en détail dans une leçon suivante.
 
 !!! tip "Avancé"
     De la même manière que pour les nombres impairs, on peut aussi définir un «stream»
@@ -208,8 +217,10 @@ mais une expression, ce qui nous évite de devoir utiliser le mot clé _return_.
     ```kotlin
     
     ```
-    
-!!! note "Exercice"
+
+## Exercices
+
+!!! note "Exercice 1"
     Si on vous donne un programme qui définit deux variables `x` et `y`:
     
     ``` kotlin
@@ -223,7 +234,7 @@ mais une expression, ce qui nous évite de devoir utiliser le mot clé _return_.
     
     [Solution](https://gitlab.com/HEIA-FR/programmation-zero/snippets/1668689)
     
-!!! note "Exercice"
+!!! note "Exercice 2"
     Ecrivez une fonction `fact(n: Int): Int` qui retourne la *factorielle* d'un nombre. La factorielle
     de \(n\), noté \(n!\) est définie comme suit:
     
@@ -231,7 +242,7 @@ mais une expression, ce qui nous évite de devoir utiliser le mot clé _return_.
     n! = \prod_{1<=i<=n} i = 1 \times 2 \times 2 \times 3 \times \dots \ \times (n-1) \ \times n
     $$
     
-!!! note "Exercice"
+!!! note "Exercice 3"
     Le nombre d'Euler \(e\) peut être défini de la manière suivante:
     
     $$
