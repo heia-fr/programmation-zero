@@ -163,7 +163,7 @@ aussi écrire une fonction qui calcule et *retourne* le n-ième nombre de la sui
 Voici une implémentation possible qui affiche les 12 premiers nombres de la suite:
 
 ``` kotlin
-fun Fibonacci(n: Int) : Int {
+fun fibonacci(n: Int) : Int {
     var fib0 = 0
     var fib1 = 1
     for (i in 1..n) {
@@ -175,7 +175,7 @@ fun Fibonacci(n: Int) : Int {
 
 fun main(args: Array<String>) {
     for (i in 0 until 12) {
-        println(Fibonacci(i))
+        println(fibonacci(i))
     }
 }
 ```
