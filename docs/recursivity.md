@@ -106,7 +106,6 @@ L'idée est de résoudre une partie du problème et de déléguer le reste du ca
     ```
 
 !!! note "Exercice"
->>>>>>> 7f953c9ea00a8c1e5c4a7a37f679c8fa38fee47b
     La suite de Syracuse est énoncée comme suit : 
     "On part d'un nombre entier plus grand que zéro ;  s'il est pair, on le divise par
     2 ; s'il est impair on le multiplie par 3 et on ajoute 1." Dès que la suite rencontre
