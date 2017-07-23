@@ -8,6 +8,7 @@ pages:
     - Bonjour le monde: hello_world.md
     - Les nombres impairs: odd_numbers.md
     - La suite de Fibonacci: fibonacci.md
+    - La récursivité: recursivity.md
     - A propos: about.md
 
 theme: 'material'
