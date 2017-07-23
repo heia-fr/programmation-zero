@@ -4,9 +4,9 @@
     To understand recursion, one must
     first understand recursion
     
-La récursivité est une des techniques de programmation les plus employés et populaire.
-Elle apparait quand on met en relation une entité avec elle-même, par example la 
-[suite de fibonnaci](fibonacci.md) est définis en fonction de elle-même :
+La récursivité est une des techniques de programmation les plus employés et populaires.
+Elle apparait quand on met en relation une entité avec elle-même, par exemple la 
+[suite de Fibonacci](fibonacci.md) est définis en fonction d’ elle-même :
 
 $$
 \begin{aligned}
@@ -18,13 +18,13 @@ $$
 
 On retrouve la récursivité dans des domaines très différents comme les sciences
 du vivant, les mathématiques, l'informatique et la linguistique.
-Certain acronyme de produit connus sont définis récursivement, comme par exemple
+Certain acronyme de produit connu sont définis récursivement, par exemple
 la signification de [GNU](https://www.gnu.org/) : "GNU's not Unix".
 
 En informatique et plus spécialement en programmation, la récursivité est
 une technique qui permet de résoudre et d'exprimer certains problèmes plus
-simplement que de manière impérative. Par exemple, la factoriel d'un nombre est
-mathématiquement définis comme suit :
+simplement que de manière impérative. Par exemple, la factorielle d'un nombre est
+mathématiquement définie comme suit :
 
 $$
 \begin{aligned}
@@ -34,17 +34,16 @@ Fac_n &=& n * Fac_{n-1}
 $$
 
 !!! note "Exercice"
-    Ecrivez une fonction récursive qui calcule la factorielle d'un nombre et comparez
-    la avec l'implémentation impérative que vous avez [réalisé avant](fibonacci.md).
+    Écrivez une fonction récursive qui calcule la factorielle d'un nombre et comparez-la avec l'implémentation impérative que vous avez [réalisé avant](fibonacci.md).
     
     [Solution](https://gitlab.com/HEIA-FR/programmation-zero/snippets/1668721)
 
 ## Le cas de base
 
 Lorsque l'on écrit une fonction (ou un algorithme) récursive, il faut tout d'abord
-réfléchir au cas trivial. Autrement dit, à quelle moment la fonction doit s'arrêter.
+réfléchir au cas trivial. Autrement dit, à quel moment la fonction doit s'arrêter.
 
-Dans le cas de la factoriel d'un nombre, le cas de base est `n == 0`. À ce moment là,
+Dans le cas de la factorielle d'un nombre, le cas de base est `n == 0`. À ce moment-là,
 on n'effectue plus l'appel de fonction et on retourne la valeur `1`.
 
 !!! note "Exercice"
@@ -63,18 +62,18 @@ d'un algorithme récursif.
 
 ## Décomposer le problème
 
-Une fois que le ou les cas de bases sont identifier, il faut essayer d'identifier les sous-problèmes
-lier à la fonction. Par exemple, pour la factoriel, on décompose le calcul `n * fac(n-1)` en deux parties :
+Une fois que le ou les cas de bases sont identifiés, il faut essayer d'identifier les sous-problèmes
+lier à la fonction. Par exemple, pour la factorielle, on décompose le calcul `n * fac(n-1)` en deux parties :
 
 * Ce qui est calculé maintenant : `n * ...`
-* Ce qui est délegué à un autre appel récursif : `... fac(n - 1)`
+* Ce qui est délégué à un autre appel récursif : `... fac(n - 1)`
 
-L'idée est de résoudre une partie du problème et de déleguer le reste du calcul à quelqu'un d'autre.
+L'idée est de résoudre une partie du problème et de déléguer le reste du calcul à quelqu'un d'autre.
 
 ## Exercice
 
 !!! note "Exercice"
-    Proposer des signature pour les fonctions récursives suivantes :
+    Proposer des signatures pour les fonctions récursives suivantes :
     
     * Factorielle
     * Suite de Fibonacci
@@ -85,9 +84,9 @@ L'idée est de résoudre une partie du problème et de déleguer le reste du cal
     [Solution](https://gitlab.com/HEIA-FR/programmation-zero/snippets/1668844)
     
 !!! tip "Astuce : `TODO()`"
-    Lorsque l'on écrit un programme, il arrive que l'on doivent écrire une fonction
-    qui effectue certaine opération mais que l'on veuille l'implémenter plus tard.
-    On écrit donc la signature de la fonction mais sans l'implémenter, on écrit donc
+    Lorsque l'on écrit un programme, il arrive que l'on souhaite concevoir une fonction
+    qui effectue certaines opérations, mais que l'on veuille l'implémenter plus tard.
+    On écrit donc la signature de la fonction, mais sans l'implémenter, on écrit donc
     du code "bidon" pour que le programme compile :
     
     ```kotlin
@@ -106,11 +105,9 @@ L'idée est de résoudre une partie du problème et de déleguer le reste du cal
     }
     ```
 
-
-
 !!! note "Exercise"
-    La suite de Syracuse est énoncé comme suit : 
-    "On part d'un nombre entier plus grand que zéro ;  s'il est pair on le divise par
+    La suite de Syracuse est énoncée comme suit : 
+    "On part d'un nombre entier plus grand que zéro ;  s'il est pair, on le divise par
     2 ; s'il est impair on le multiplie par 3 et on ajoute 1." Dès que la suite rencontre
     le nombre 1, elle va tourner sur elle-même avec la séquence `1,2,4`.
     
