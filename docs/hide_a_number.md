@@ -32,7 +32,7 @@ L'instruction `val rand = Random()` définit la variable `rand` de type `Random`
 
 L'instruction suivante `val secretNumber = rand.nextInt(100)` utilise la variable (ou l'objet) `rand` pour générer un nombre pseudo-aléatoire plus grand ou égal à zéro et plus petit que 100. En mathématique on écrirait:
 
-$$0 <= n < 100$$
+$$0 \leq n < 100$$
 
 Ce nombre est ensuite sauvé dans la variable `secretNumber`.
 
