@@ -185,7 +185,7 @@ $$ m = 2^n $$
 La croissance exponentielle est aussi au coeur de l'intrigue du thriller «[Inferno](https://fr.wikipedia.org/wiki/Inferno_(film,_2016))» réalisé par Ron Howard et adapté du roman du même nom de l'Américain Dan Brown.
 
 <center>
-<img src="../images/bottle.jpg" width="200">
+<img src="../images/bottle.jpg" width="400">
 </center>
 
 Ce film fait référence à la [vidéo](https://youtu.be/x5OYmRyfXBY) dans laqauelle le professeur [Al Bartlett](https://fr.wikipedia.org/wiki/Albert_Allen_Bartlett) illustre le concept de croissance exponentielle de la manière suivante
