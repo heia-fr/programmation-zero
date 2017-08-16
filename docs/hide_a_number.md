@@ -182,7 +182,13 @@ La relation entre le nombre de coups et la limite supérieure est une fonction *
 
 $$ m = 2^n $$
 
-La croissance exponentielle est aussi au coeur de l'intrigue du thriller «[Inferno](https://fr.wikipedia.org/wiki/Inferno_(film,_2016)» réalisé par Ron Howard et adapté du roman du même nom de l'Américain Dan Brown. Ce film fait référence à la [vidéo](https://youtu.be/x5OYmRyfXBY) dans laqauelle le professeur [Al Bartlett](https://fr.wikipedia.org/wiki/Albert_Allen_Bartlett) illustre le concept de croissance exponentielle de la manière suivante
+La croissance exponentielle est aussi au coeur de l'intrigue du thriller «[Inferno](https://fr.wikipedia.org/wiki/Inferno_(film,_2016))» réalisé par Ron Howard et adapté du roman du même nom de l'Américain Dan Brown.
+
+<center>
+<img src="../images/bottle.jpg" width="200">
+</center>
+
+Ce film fait référence à la [vidéo](https://youtu.be/x5OYmRyfXBY) dans laqauelle le professeur [Al Bartlett](https://fr.wikipedia.org/wiki/Albert_Allen_Bartlett) illustre le concept de croissance exponentielle de la manière suivante
 
 !!! quote ""
     Si une des bactéries croit en doublant leur population, vous commencez avec une bactérie, puis vous en avez 2, puis 4, puis 8, 16, etc.
