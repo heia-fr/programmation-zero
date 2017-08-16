@@ -8,8 +8,7 @@ Un bon programmeur choisit bien ses mots quand il écrit du code. Son art ressem
 
 Etre capable de programmer, c'est un peu comme avoir des super pouvoirs qui vous permettent de commander les machines et de leur faire faire des choses incroyables.
 
-!!! quote "Martin Fowler:"
-    Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
+
 
 !!! quote "Martin Golding:"
     Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
