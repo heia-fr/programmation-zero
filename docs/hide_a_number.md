@@ -6,7 +6,7 @@
 On aimerait écrire un programme qui «cache» un nombre dans un intervalle donné et qui nous invite à le deviner. Le programme nous donnera des indications du type
 «plus grand» ou «plus petit» pour nous aider à deviner ce nombre.
 
-# Le hasard
+## Le hasard
 
 Le premier défi consiste à faire en sorte que le nombre caché par le programme soit pris au hasard. En effet, l'ordinateur n'a pas vraiment la notion de hasard et tout ce qu'il fait est le fruit d'une logique rigoureuse. L'ordinateur n'a donc pas de moyen simple de prendre un nombre **vraiment** au hasard, mais il peut en donner l'illusion. On parle alors de nombre [pseudo-aléatoire](https://fr.wikipedia.org/wiki/Pseudo-al%C3%A9atoire). La *qualité* du hasard peut être améliorée en utilisant des données variables telles que l'heure qu'il est, le niveau de bruit d'un microphone, ou la distance parcourue par la souris. Dans le jargon informatique on parle d'[entropie](https://en.wikipedia.org/wiki/Entropy_(computing)).
 
@@ -51,7 +51,7 @@ fun main(args: Array<String>) {
 
 L'intérêt d'utiliser une variable est qu'on peut donner un *nom* à ce nombre, on sait en lisant le code que ce nombre aléatoire est un *nombre secret* et dans le contexte de notre programme on sait que c'est le nombre que l'utilisateur doit deviner. On aurait pu utiliser n'impore quel nom pour cette variable, mais admettez que `secretNumber` est bien plus expressif que quelque chose comme `x` ou `n`. 
 
-# Saisie d'un numbre
+## Saisie d'un numbre
 
 Nous devons maintenant trouver un moyen pour que l'utilisateur puisse entrer un nombre pour essayer de trouver celui que le programme nous cache. Pour ce faire, nous utilisons la fonction `readLine`.
 
@@ -94,7 +94,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-# Comparaison 
+## Comparaison 
 
 Nous devons maintenant comparer le nombre entré par l'utilisateur avec le nombre secret. Mais bien que l'utilisateur ait entré un nombre, la fonction `readLine` retourne toujours du texte (string) et avant de faire la comparaison, nous devons *convertir* ce texte en nombre. Kotlin permet de faire ça facilement avec la méthode *toInt*. Voici comment on fait ça:
 
@@ -118,7 +118,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-# Répétition
+## Répétition
 
 Il ne reste plus qu'à répéter la dernière partie du code jusqu'à ce que la bonne réponse soit trouvée:
 
@@ -176,7 +176,7 @@ Your guess 59 is correct. Congratulation
 !!! note
     Si j'ai droit à 20 essais quel doit être la mimite supérieure du nombre caché pour que je puisse le trouver?
 
-# L'exponentielle
+## La croissance exponentielle
 
 La relation entre le nombre de coups et la limite supérieure est une fonction *exponentielle*. Si \(n\) est le nombre de coups permis et \(m\) la limite suipérieure du combre caché, nous pouvons écrire :
 
@@ -199,7 +199,7 @@ La croissance exponentielle est aussi au coeur de l'intrigue du thriller «[Infe
 !!! quote "Albert Allen Bartlett:"
     The greatest shortcoming of the human race is our inability to understand the exponential function.
 
-# Exercices
+## Exercices
 
 !!! note "Exercice"
     Modifiez le programme pour qu'il affiche le nombre de coups utilisées pour deviner le secret.
