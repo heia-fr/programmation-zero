@@ -164,13 +164,17 @@ try again : 59
 Your guess 59 is correct. Congratulation
 ```
 
-!!! note En faisant les bons choix, combien de coups *au maximum* sont nécessaire pour deviner à un nombre entre 0 et 99?
+!!! note
+    En faisant les bons choix, combien de coups *au maximum* sont nécessaire pour deviner à un nombre entre 0 et 99?
 
-!!! note Combien de coups sont nécessaire pour deviner un nombre entre 0 et 1000?
+!!! note
+    Combien de coups sont nécessaire pour deviner un nombre entre 0 et 1000?
 
-!!! note Combien de coups sont nécessaire pour deviner un nombre entre 0 et 2000?
+!!! note
+    Combien de coups sont nécessaire pour deviner un nombre entre 0 et 2000?
 
-!!! note si j'ai droit à 20 essais quel doit être la mimite supérieure du nombre caché pour que je puisse le trouver?
+!!! note
+    Si j'ai droit à 20 essais quel doit être la mimite supérieure du nombre caché pour que je puisse le trouver?
 
 # L'exponentielle
 
@@ -180,7 +184,7 @@ $$ m = 2^n $$
 
 La croissance exponentielle est aussi au coeur de l'intrigue du thriller «[Inferno](https://fr.wikipedia.org/wiki/Inferno_(film,_2016)» réalisé par Ron Howard et adapté du roman du même nom de l'Américain Dan Brown. Ce film fait référence à la [vidéo](https://youtu.be/x5OYmRyfXBY) dans laqauelle le professeur [Al Bartlett](https://fr.wikipedia.org/wiki/Albert_Allen_Bartlett) illustre le concept de croissance exponentielle de la manière suivante
 
-!!! quote
+!!! quote ""
     Si une des bactéries croit en doublant leur population, vous commencez avec une bactérie, puis vous en avez 2, puis 4, puis 8, 16, etc.
 
     Supposons que la population double chaque minute et que ces bactéries vivent dans l'espace limité d'une bouteille.
@@ -192,7 +196,7 @@ La croissance exponentielle est aussi au coeur de l'intrigue du thriller «[Infe
     A 11h55 elle n'est pleine qu'à 3%, avec 97% d'espace libre. Combien d'entre vous allez réaliser qu'il y aura un problème?
 
 
-!!! quote "Albert Allen Bartlett":
+!!! quote "Albert Allen Bartlett:"
     The greatest shortcoming of the human race is our inability to understand the exponential function.
 
 # Exercices
