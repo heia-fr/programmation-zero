@@ -1,7 +1,7 @@
 # Les éléments chimiques
 
 <center>
-<img src="../images/Periodic_table_large.png" width=600>
+<img src="../images/Periodic_table_large.jpg">
 </center>
 
 Periodic_table_large.png
