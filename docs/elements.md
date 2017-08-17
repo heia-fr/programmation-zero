@@ -4,8 +4,6 @@
 <img src="../images/Periodic_table_large.jpg">
 </center>
 
-Periodic_table_large.png
-
 ``` kotlin
 import java.io.File
 
