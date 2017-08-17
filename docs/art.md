@@ -212,7 +212,7 @@ fun main(args: Array<String>) {
   *******
  *********
 ***********
-````
+```
 
 ``` kotlin
 fun main(args: Array<String>) {
@@ -229,7 +229,7 @@ fun main(args: Array<String>) {
         }
     }
 }
-````
+```
 
 ## Le damier
 

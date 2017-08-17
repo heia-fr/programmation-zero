@@ -122,6 +122,7 @@ Dans ce code, la ligne `val guess = readLine()!!.toInt()` mérite une explicatio
 
 !!! quote ""
     `fun readLine(): String? (source)`
+    
     **Platform and version requirements: JVM**
 
     Reads a line of input from the standard input stream.
