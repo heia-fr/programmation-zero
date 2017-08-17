@@ -18,16 +18,24 @@ data class Element(val symbol: String, val name: String, val number: Int) {
 
 fun readElements(): ArrayList<Element> {
     val result = ArrayList<Element>()
-    File(elementsFile).forEachLine { x -> val t = x.split(','); result.add(Element(t[2], t[1], t[0].toInt())) }
+    File(elementsFile).forEachLine { 
+        x -> val t = x.split(',')
+        result.add(Element(t[2], t[1], t[0].toInt()))
+    }
     return result
 }
 
-fun convertRec(text: String, prefix: List<Element>, solutions: ArrayList<String>, elements: List<Element>) {
+fun convertRec(
+    text: String, prefix: List<Element>,
+    solutions: ArrayList<String>, elements: List<Element>) {
     if (text == "") {
         solutions.add(prefix.map { e -> e.toString() }.joinToString())
     } else {
-        for (i in elements.filter { (symbol) -> text.startsWith(symbol, ignoreCase = true) }) {
-            convertRec(text.drop(i.symbol.length), prefix.plus(i), solutions, elements)
+        for (i in elements.filter {
+            (symbol) -> text.startsWith(symbol, ignoreCase = true)
+        }) {
+            convertRec(
+                text.drop(i.symbol.length), prefix.plus(i), solutions, elements)
         }
     }
 }
