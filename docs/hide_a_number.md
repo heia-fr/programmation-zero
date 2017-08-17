@@ -118,6 +118,18 @@ fun main(args: Array<String>) {
 }
 ```
 
+Dans ce code, la ligne `val guess = readLine()!!.toInt()` mérite une explication. Que signifient ces deux points d'exclamation? Kotlin est un langage de programmation qui offre plusieurs mécanismes pour écrire des programmes sûrs et fiables. Dans le programme ci-dessus, nous utilsons la fonction `readLine` pour lire ce que l'utilisateur entre au clavier. Comme indiqué dans la documentation, cette fonction peut retourner la valeur `null` dans certaines conditions:
+
+!!! quote ""
+    `fun readLine(): String? (source)`
+    **Platform and version requirements: JVM**
+
+    Reads a line of input from the standard input stream.
+
+    **Return** the line read or `null` if the input stream is redirected to a file and the end of file has been reached.
+
+Cette valeur `null` peut être source de nombreses erreurs. L'opérateur `!!` fait que si `readline()` retourne `null`, alors une *exception* sera levée. La problématique du `null` est assez complexe et sort du cadre de ce chapitre. L'opérateur `!!` n'est pas non plus la manière la plus élégante de résoudre ce problème, mais c'est probablement la plus simple et c'est acceptable dans notre contexte.
+
 ## Répétition
 
 Il ne reste plus qu'à répéter la dernière partie du code jusqu'à ce que la bonne réponse soit trouvée:
