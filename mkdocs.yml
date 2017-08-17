@@ -11,6 +11,7 @@ pages:
     - Les oeuvres d'art: art.md
     - Je cache un nombre et tu le devines: hide_a_number.md
     - La récursivité: recursivity.md
+    - Les éléments chimiques: elements.md
     - A propos: about.md
 
 theme: 'material'
