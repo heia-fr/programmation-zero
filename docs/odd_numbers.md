@@ -6,6 +6,12 @@
     Plus vague et plus soluble dans l'air,  
     Sans rien en lui qui pèse ou qui pose.
 
+!!! tip "Objectifs pédagogiques"
+    * Les variables
+    * L'artithmétique Modulo
+    * Les boucle
+    * Les instructions conditionnelles
+
 On aimerait écrire un programme qui affiche les nombres entiers impairs entre 1 et 99.
 
 Une première approche consiste à énumérer tous les nombres entre 1 et 99 et de ne les afficher que si ils sont impairs.
@@ -36,7 +42,7 @@ l'instruction `if`. Dans le jargon informatique, on parle d'une *instruction con
 faites si la condition est remplie sont délimitées par les accolades `{` et `}`. 
 
 Ce programme fonctionne, mais ce n'est ni le plus simple ni le plus efficace. Une meilleure solution serait de
-générer les nombres de 1 à 100 avec un incrément de 2. En Kotlin, on peut définir l'incrément (saut) avec le mot clé `step`.
+générer les nombres de 1 à 99 avec un incrément de 2. En Kotlin, on peut définir l'incrément (saut) avec le mot clé `step`.
 
 Voici cette deuxième version :
 

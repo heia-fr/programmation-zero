@@ -13,7 +13,6 @@ pages:
     - La récursivité: recursivity.md
     - Facebook Sticker: facebook.md
     - Les éléments chimiques: elements.md
-    - A propos: about.md
 
 theme: 'material'
 
