@@ -1,4 +1,4 @@
-# Des oeuvres d'art
+# Des œuvres d'art
 
 ## Le carré
 

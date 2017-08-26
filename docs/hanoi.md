@@ -1,7 +1,7 @@
 # Les tours de Hanoï
 
 <center>
-<img src="../images/Tower_of_Hanoi_4.gif" width="200">
+<img src="../images/Tower_of_Hanoi_4.gif" width="400">
 </center>  
 
 [tour de Hanoï](https://fr.wikipedia.org/wiki/Tours_de_Hano%C3%AF)

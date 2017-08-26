@@ -1,4 +1,4 @@
-# Les «checksums»  
+# Les sommes de contrôlle  
 
 ``` kotlin
 fun checksum(x: Long): Int {
