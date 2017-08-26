@@ -1,0 +1,54 @@
+# Les «checksums»  
+
+``` kotlin
+fun checksum(x: Long): Int {
+	var t: Long = x
+	var result: Int = 0
+	while (t != 0L) {
+		result = (result + (t % 10).toInt()) % 10
+		t = t / 10L
+	}
+	return result
+}
+
+fun main(args: Array<String>) {
+	println (checksum(999))
+	println (checksum(512))
+	println (checksum(651288))
+}
+```
+
+```
+7
+8
+0
+```
+
+version recursive
+
+``` kotlin
+fun checksum(x: Long): Int {
+	if (x == 0L) {
+		return 0;
+	}
+	return ((x % 10).toInt() + checksum2(x / 10L)) % 10
+}
+```
+
+Ajouter un chiffre pour que le checksum soit 0.
+
+``` kotlin
+fun zerosum(x: Long): Long {
+	val c: Int = checksum(x)
+	if (c == 0) {
+		return x * 10L 
+	}
+    return x * 10L + (10 - c);
+}
+```
+
+```
+9993
+5122
+6512880
+```

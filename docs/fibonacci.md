@@ -258,6 +258,9 @@ en détail dans une leçon suivante.
     de \(e\).
     
 !!! note "Exercice 4"
+    Modifier le programme pour afficher les [nombres de Lucas](https://fr.wikipedia.org/wiki/Nombre_de_Lucas)
+
+!!! note "Exercice 5"
     En utilisant la variable `fibStream` et en vous insipirant du code similaire pour
     les nombres impairs, écrivez une fonction qui affiche tous les nombres de Fibonacci
     plus petit qu'un nombre passer en paramètre.

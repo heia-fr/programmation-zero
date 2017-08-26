@@ -8,10 +8,19 @@ pages:
     - Bonjour le monde: hello_world.md
     - Les nombres impairs: odd_numbers.md
     - La suite de Fibonacci: fibonacci.md
+    - L'arrondi à 5 centimes: five_cents.md
+    - Les sommes de contrôle: checksum.md
+    - Les nombnres à l'envers: reverse.md
+    - Le PGDC: euclid.md
     - Les bases 2 et 10: bases.md
     - Les oeuvres d'art: art.md
+    - Les nombres premiers: primes.md
+    - Les palindromes: palindromes.md
     - Je cache un nombre et tu le devines: hide_a_number.md
+    - Tu caches un nombre et je le devine: guess_a_number.md
+    - Les tours de Hanoï: hanoi.md
     - La récursivité: recursivity.md
+    - Le comptage des lettres: letter_count.md
     - Facebook Sticker: facebook.md
     - Les éléments chimiques: elements.md
 
