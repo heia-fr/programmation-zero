@@ -8,6 +8,7 @@ pages:
     - Bonjour le monde: hello_world.md
     - Les nombres impairs: odd_numbers.md
     - La suite de Fibonacci: fibonacci.md
+    - Les bases 2 et 10: bases.md
     - Les oeuvres d'art: art.md
     - Je cache un nombre et tu le devines: hide_a_number.md
     - La récursivité: recursivity.md

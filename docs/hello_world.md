@@ -1,5 +1,10 @@
 # Hello World
 
+!!! tip "Objectifs pédagogiques"
+    * Faire connaissance avec Kotlin
+    * Les fonctions
+    * Les arguments
+
 La [tradition](https://fr.wikipedia.org/wiki/Hello_world) veut que le premier programme que l'on écrit soit un programme qui affiche «Hello World» à l'écran.
 
 Voici ce que ça donne en Kotlin:

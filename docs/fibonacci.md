@@ -33,11 +33,11 @@ Voici une première version de ce programme:
 
 ``` kotlin
 fun printFibonacci(max: Int) {
-    var fib0 = 0
-    var fib1 = 1
+    var fib0: Int = 0
+    var fib1: Int = 1
     while (fib0 <= max) {
         println(fib0)
-        val t = fib0
+        val t: Int = fib0
         fib0 = fib1
         fib1 = fib1 + t
     }
@@ -89,7 +89,7 @@ suivant de la suite de Fibonacci *tant que* ce nombre est plus petit ou égal à
 Arrêtons-nous un instant sur les 3 lignes suivantes:
 
 ``` kotlin
-val t = fib0
+val t: Int = fib0
 fib0 = fib1
 fib1 += t
 ```
@@ -120,7 +120,7 @@ Nous ne pouvons pas non plus inverser les deux instructions:
 car dans ce cas c'est la valeur de `fib1` qui serait perdue.
 
 Une solution possible consiste à utiliser une *variable temporaire* que nous appelons
-souvent `t`. La première ligne `val t = fib0` *sauve* la valeur de `fib0` dans 
+souvent `t`. La première ligne `val t: Int = fib0` *sauve* la valeur de `fib0` dans 
 la variable temporaire `t`, ensuite on peut modifier `fib0` avec l'instruction 
 `fib0 = fib1` et pour calculer la nouvelle valeur de `fib2`nous utilisons `t`au
 lieu de `fib0,` car vous avons besoin de sa valeur avant d'être remplacée par `fib1`:
@@ -152,8 +152,8 @@ La fonction `printFibonacci` peut alors s'écrire comme ça:
 
 ``` kotlin
 fun printFibonacci(max: Int) {
-    var fib0 = 0
-    var fib1 = 1
+    var fib0: Int = 0
+    var fib1: Int = 1
     while (fib0 <= max) {
         println(fib0)
         fib1 = fib1 + fib0
@@ -171,8 +171,8 @@ Voici une implémentation possible qui affiche les 12 premiers nombres de la sui
 
 ``` kotlin
 fun fibonacci(n: Int) : Int {
-    var fib0 = 0
-    var fib1 = 1
+    var fib0: Int = 0
+    var fib1: Int = 1
     for (i in 1..n) {
         fib1 = fib1 + fib0
         fib0 = fib1 - fib0
@@ -181,7 +181,7 @@ fun fibonacci(n: Int) : Int {
 }
 
 fun main(args: Array<String>) {
-    for (i in 0 until 12) {
+    for (i: Int in 0 until 12) {
         println(fibonacci(i))
     }
 }
@@ -229,8 +229,8 @@ en détail dans une leçon suivante.
     Si on vous donne un programme qui définit deux variables `x` et `y`:
     
     ``` kotlin
-    var x = 12
-    var y = 7
+    var x: Int = 12
+    var y: Int = 7
     ```
     
     compléter ce programme pour *inverser* les valeurs de x et de y. Commencez
