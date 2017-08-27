@@ -54,4 +54,4 @@ k=1673
 w=537
 ```
 
-  
+Ca peut vous aider la prochaine fois que vous jourez au «pendu» avec vos amis.
