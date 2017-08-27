@@ -60,6 +60,8 @@ false
 true
 ```
 
+Le plus long mot du dictionnaire français qui est un palindrome:
+
 ``` kotlin
 import java.io.File
 
