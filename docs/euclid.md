@@ -4,6 +4,8 @@
 <img src="../images/euclid.jpg" width="200">
 </center>
 
+La version simple
+
 ``` kotlin
 fun gcd(x: Int, y: Int): Int {
 	var a: Int = x
@@ -41,8 +43,10 @@ fun gcd(x: Int, y: Int): Int {
 }
 ```
 
+Version plus rapide
+
 ``` kotlin
-fun gcd2(x: Int, y: Int): Int {
+fun gcd(x: Int, y: Int): Int {
 	var a: Int = x
 	var b: Int = y
     var d: Int = 1
@@ -67,6 +71,8 @@ fun gcd2(x: Int, y: Int): Int {
 }
 ```
 
+Version d'Euclide
+
 ``` kotlin
 fun gcd(x: Int, y: Int): Int {
 	var a: Int = x
@@ -79,6 +85,8 @@ fun gcd(x: Int, y: Int): Int {
 	return a
 }
 ```
+
+Version récursive d'euclide
 
 ``` kotlin
 fun gcd(x: Int, y: Int): Int {
