@@ -71,19 +71,21 @@ Cette solution est efficace, mais pas meilleure, ni plus simple que la version p
 
 !!! note "Exercice"
     Modifiez le programme pour qu'il affiche les nombres entre 1 et 100 qui sont divisibles par 3.
-
+    <!--
     [solution](https://gitlab.com/HEIA-FR/programmation-zero/snippets/1668672)
+    -->
 
 !!! note "Exercice"
     Modifiez le programme pour qu'il affiche les nombres entre 1 et 100 qui sont divisibles par 3 ou par 5.
-    
+    <!--
     [solution](https://gitlab.com/HEIA-FR/programmation-zero/snippets/1668668)
-    
+    -->
+
 !!! note "Exercice"
     Ecrivez une programme qui affiche les puissances de 2 inférieures ou égales à 100.
-    
+    <!--
     [solution](https://gitlab.com/HEIA-FR/programmation-zero/snippets/1668674)
-
+    -->
 
 !!! tip "Avancé"
     Voici une solution élégante qui utilise les concepts de «stream» et d'«expression lambda».

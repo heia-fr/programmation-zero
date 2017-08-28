@@ -236,9 +236,11 @@ en détail dans une leçon suivante.
     compléter ce programme pour *inverser* les valeurs de x et de y. Commencez
     par utiliser une variable temporaire `t`. Essayez ensuite d'inverser
     les valeurs de x et de y sans avoir besoin de variable temporaire.
-    
+
+<!--
     [Solution](https://gitlab.com/HEIA-FR/programmation-zero/snippets/1668689)
-    
+-->
+
 !!! note "Exercice 2"
     Ecrivez une fonction `fact(n: Int): Int` qui retourne la *factorielle* d'un nombre. La factorielle
     de \(n\), noté \(n!\) est définie comme suit:
