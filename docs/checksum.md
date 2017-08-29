@@ -31,7 +31,7 @@ fun checksum(x: Long): Int {
 	if (x == 0L) {
 		return 0;
 	}
-	return ((x % 10).toInt() + checksum2(x / 10L)) % 10
+	return ((x % 10).toInt() + checksum(x / 10L)) % 10
 }
 ```
 
@@ -39,11 +39,7 @@ Ajouter un chiffre pour que le checksum soit 0.
 
 ``` kotlin
 fun zerosum(x: Long): Long {
-	val c: Int = checksum(x)
-	if (c == 0) {
-		return x * 10L 
-	}
-    return x * 10L + (10 - c);
+    return x * 10L + (10 - checksum(x))%10
 }
 ```
 
