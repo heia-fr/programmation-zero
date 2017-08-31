@@ -48,3 +48,7 @@ fun zerosum(x: Long): Long {
 5122
 6512880
 ```
+
+!!! note "Exercice"
+	Modifiez votre programme pour calculer la somme de contrôlle selon
+	la [formule de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm)
