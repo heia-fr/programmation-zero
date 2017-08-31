@@ -253,12 +253,12 @@ en détail dans une leçon suivante.
     Le nombre d'Euler \(e\) peut être défini de la manière suivante:
     
     $$
-    e = 1 + \frac{1}{2!} + \frac{1}{3!} + \frac{1}{4!} + \frac{1}{5!} + \frac{1}{6!} + \dots
+    e = 1 + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + \frac{1}{4!} + \frac{1}{5!} + \frac{1}{6!} + \dots
     $$
     
     Ecrivez un programme qui affiche les 100 premières itérations de l'approximation
     de \(e\).
-    
+
 !!! note "Exercice 4"
     Modifier le programme pour afficher les [nombres de Lucas](https://fr.wikipedia.org/wiki/Nombre_de_Lucas)
 
