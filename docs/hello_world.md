@@ -1,6 +1,6 @@
 # Hello World
 
-!!! tip "Objectifs pédagogiques"
+!!! summary "Objectifs pédagogiques"
     * Faire connaissance avec Kotlin
     * Les fonctions
     * Les arguments

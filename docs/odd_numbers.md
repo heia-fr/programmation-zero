@@ -6,7 +6,7 @@
     Plus vague et plus soluble dans l'air,  
     Sans rien en lui qui pèse ou qui pose.
 
-!!! tip "Objectifs pédagogiques"
+!!! summary "Objectifs pédagogiques"
     * Les variables
     * L'artithmétique Modulo
     * Les boucle
