@@ -1,4 +1,4 @@
-# Le PGDC
+# Le PGCD
 
 <center>
 <img src="../images/euclid.jpg" width="200">

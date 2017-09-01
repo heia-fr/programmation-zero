@@ -11,7 +11,7 @@ pages:
     - L'arrondi à 5 centimes: five_cents.md
     - Les sommes de contrôle: checksum.md
     - Les nombres à l'envers: reverse.md
-    - Le PGDC: euclid.md
+    - Le PGCD: euclid.md
     - Les bases 2 et 10: bases.md
     - Les œuvres d'art: art.md
     - Les nombres premiers: primes.md
