@@ -17,7 +17,7 @@ pages:
     - Les nombres premiers: primes.md
     - Les palindromes: palindromes.md
     - Je cache un nombre et tu le devines: hide_a_number.md
-    - Tu caches un nombre et je le devine: guess_a_number.md
+#    - Tu caches un nombre et je le devine: guess_a_number.md
     - Les tours de Hanoï: hanoi.md
     - La récursivité: recursivity.md
     - Compter les lettres: letter_count.md
