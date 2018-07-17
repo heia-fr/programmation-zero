@@ -2,27 +2,27 @@
 
 ``` kotlin
 fun main(args: Array<String>) {
-	var lowerLimit = 0
-	var upperLimit = 99
+    var lowerLimit = 0
+    var upperLimit = 99
 
-	println("Think about a number between ${lowerLimit} and ${upperLimit}.")
-	print("I will try to guess it... Press RETURN when ready.")
-	readLine()
-	loop@
-	while (true) {
-		val guess = (lowerLimit + upperLimit) / 2
-		print("My guess is ${guess}. Enter '=' if found, '-' if it is too high and '+' if it is too low ")
-		val reply = readLine()
-		when (reply) {
-			"=" -> {
-				println("Thank you")
-				break@loop
-			}
-			"+" -> lowerLimit = guess + 1
-			"-" -> upperLimit = guess - 1
-			else -> println("I don't understand.")
-		}
-	}
+    println("Think about a number between ${lowerLimit} and ${upperLimit}.")
+    print("I will try to guess it... Press RETURN when ready.")
+    readLine()
+    loop@
+    while (true) {
+        val guess = (lowerLimit + upperLimit) / 2
+        print("My guess is ${guess}. Enter '=' if found, '-' if it is too high and '+' if it is too low ")
+        val reply = readLine()
+        when (reply) {
+            "=" -> {
+                println("Thank you")
+                break@loop
+            }
+            "+" -> lowerLimit = guess + 1
+            "-" -> upperLimit = guess - 1
+            else -> println("I don't understand.")
+        }
+    }
 }
 ```
 

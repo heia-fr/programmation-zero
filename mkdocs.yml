@@ -23,26 +23,29 @@ pages:
     - Compter les lettres: letter_count.md
     - Facebook Sticker: facebook.md
     - Les éléments chimiques: elements.md
+    - Besoin de plus d'argent ?: more_money.md
 
 theme: 'material'
 
 markdown_extensions:
-    - footnotes
-    - admonition
-    - codehilite
-    - pymdownx.arithmatex
-    - pymdownx.betterem(smart_enable=all)
-    - pymdownx.caret
-    - pymdownx.critic
-    - pymdownx.emoji:
-        emoji_generator: !!python/name:pymdownx.emoji.to_svg
-    - pymdownx.inlinehilite
-    - pymdownx.magiclink
-    - pymdownx.mark
-    - pymdownx.smartsymbols
-    - pymdownx.superfences
-    - pymdownx.tasklist(custom_checkbox=true)
-    - pymdownx.tilde
+  - admonition  
+  - footnotes
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 #   - mdx_math
 
 extra_javascript: 

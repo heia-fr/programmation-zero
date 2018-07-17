@@ -8,6 +8,11 @@ Un bon programmeur choisit bien ses mots quand il écrit du code. Son art ressem
 
 Etre capable de programmer, c'est un peu comme avoir des super pouvoirs qui vous permettent de commander les machines et de leur faire faire des choses incroyables.
 
+## La Pensée computationnelle
+
+Pour être un bon programmeur, il ne faut pas seulement savoir tapper du code sur un clavier d'ordinateur
+en espérant que ça va fonctionner. Un bon programmeur à dévelopé sa « [pensée computationnelle](https://fr.wikipedia.org/wiki/Pens%C3%A9e_computationnelle) ».
+
 ## Communauté
 
 Si vous avez des questions pendant l'académie d'été, ou même pendant le semestre, vous pouvez nous joindre sur le serveur [Programmation Zéro](https://discord.gg/JW45WDu) de [Discord](https://discordapp.com/).

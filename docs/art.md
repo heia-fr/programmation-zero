@@ -163,7 +163,7 @@ fun main(args: Array<String>) {
 ```
 
 
-## Le sapin de Noêl
+## Le sapin de Noël
 
 ```
     *

@@ -25,7 +25,7 @@ En plus de regrouper des instructions, une
 fonction permet de donner un **nom** à ce groupe d'instructions. Dans l'exemple
 ci-dessus, le nom donné à est `main`. Nous verrons plus tard que nous pouvons
 donner plus ou moins le nom qu'on veut à une fonction, mais `main` a une
-signification particulière dans un programme Kottlin; elle indique que les instructions de cette fonction sont celles qui devront être exécutées lors du
+signification particulière dans un programme Kotlin; elle indique que les instructions de cette fonction sont celles qui devront être exécutées lors du
 lancement du programme. Tous les programmes que nous écrirons auront une fonction `main`.
 
 La partie entre parenthèses indique les **arguments** de la fonction. Ces arguments — ou paramètres — sont utilisables par les instructions de la fonction et

@@ -1,20 +1,24 @@
-# Les sommes de contrôlle  
+# Les sommes de contrôle  
+
+Les sommes de contrôles sont utilisés couramment pour vérifier qu'une suite de chiffres est correcte. On l'utilise pour vérifier les numéros des cartes de crédit, les numéros de référence des bulletins de versements, ou dans des protocoles de communication.
+
+Il existe plusieurs type de somme de contrôle et nous commençons avec une simple somme modulo 10 de tous les chiffres d'un nombre :
 
 ``` kotlin
 fun checksum(x: Long): Int {
-	var t: Long = x
-	var result: Int = 0
-	while (t != 0L) {
-		result = (result + (t % 10).toInt()) % 10
-		t = t / 10L
-	}
-	return result
+    var t: Long = x
+    var result: Int = 0
+    while (t != 0L) {
+        result = (result + (t % 10).toInt()) % 10
+        t = t / 10L
+    }
+    return result
 }
 
 fun main(args: Array<String>) {
-	println (checksum(999))
-	println (checksum(512))
-	println (checksum(651288))
+    println (checksum(999))
+    println (checksum(512))
+    println (checksum(651288))
 }
 ```
 
@@ -28,10 +32,10 @@ version recursive
 
 ``` kotlin
 fun checksum(x: Long): Int {
-	if (x == 0L) {
-		return 0;
-	}
-	return ((x % 10).toInt() + checksum(x / 10L)) % 10
+    if (x == 0L) {
+        return 0;
+    }
+    return ((x % 10).toInt() + checksum(x / 10L)) % 10
 }
 ```
 
@@ -50,5 +54,5 @@ fun zerosum(x: Long): Long {
 ```
 
 !!! note "Exercice"
-	Modifiez votre programme pour calculer la somme de contrôlle selon
-	la [formule de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm)
+    Modifiez votre programme pour calculer la somme de contrôle selon
+    la [formule de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm)

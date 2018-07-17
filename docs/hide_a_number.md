@@ -26,7 +26,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-L'instruction `import java.util.Random` indique au programme que nous souhaitons utiliser la binliothèque `Random` de java et que cette bibliothèque se trouve dans le «package» `java.util`.
+L'instruction `import java.util.Random` indique au programme que nous souhaitons utiliser la bibliothèque `Random` de java et que cette bibliothèque se trouve dans le «package» `java.util`.
 
 L'instruction `val rand = Random()` définit la variable `rand` de type `Random`. Pour être plus précis, la variable `rand` est un objet, instancié à partir de la classe `Random`, mais en continuant cette explication ça nous amènerait à expliquer la programmation orientée objet et ça sort du cadre de ce chapitre. Sachez juste que cette variable `rand` permet de faire des choses liées aux nombres pseudo-aléatoires.
 
@@ -49,7 +49,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-L'intérêt d'utiliser une variable est qu'on peut donner un *nom* à ce nombre, on sait en lisant le code que ce nombre aléatoire est un *nombre secret* et dans le contexte de notre programme on sait que c'est le nombre que l'utilisateur doit deviner. On aurait pu utiliser n'importe quel nom pour cette variable, mais admettez que `secretNumber` est bien plus expressif que quelque chose comme `x` ou `n`. 
+L'intérêt d'utiliser une variable est qu'on peut donner un *nom* à ce nombre, on sait en lisant le code que ce nombre aléatoire est un *nombre secret* et dans le contexte de notre programme on sait que c'est le nombre que l'utilisateur doit deviner. On aurait pu utiliser n'importe quel nom pour cette variable, mais admettez que `secretNumber` est bien plus expressif que quelque chose comme `x` ou `n`.
 
 ## Saisie d'un nombre
 
@@ -94,7 +94,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-## Comparaison 
+## Comparaison
 
 Nous devons maintenant comparer le nombre entré par l'utilisateur avec le nombre secret. Mais bien que l'utilisateur ait entré un nombre, la fonction `readLine` retourne toujours du texte (string) et avant de faire la comparaison, nous devons *convertir* ce texte en nombre. Kotlin permet de faire ça facilement avec la méthode *toInt*. Voici comment on fait ça:
 
@@ -122,14 +122,14 @@ Dans ce code, la ligne `val guess = readLine()!!.toInt()` mérite une explicatio
 
 !!! quote ""
     `fun readLine(): String? (source)`
-    
+
     **Platform and version requirements: JVM**
 
     Reads a line of input from the standard input stream.
 
     **Return** the line read or `null` if the input stream is redirected to a file and the end of file has been reached.
 
-Cette valeur `null` peut être source de nombreses erreurs. L'opérateur `!!` fait que si `readline()` retourne `null`, alors une *exception* sera levée. La problématique du `null` est assez complexe et sort du cadre de ce chapitre. L'opérateur `!!` n'est pas non plus la manière la plus élégante de résoudre ce problème, mais c'est probablement la plus simple et c'est acceptable dans notre contexte.
+Cette valeur `null` peut être source de nombreuses erreurs. L'opérateur `!!` fait que si `readline()` retourne `null`, alors une *exception* sera levée. La problématique du `null` est assez complexe et sort du cadre de ce chapitre. L'opérateur `!!` n'est pas non plus la manière la plus élégante de résoudre ce problème, mais c'est probablement la plus simple et c'est acceptable dans notre contexte.
 
 ## Répétition
 
