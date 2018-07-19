@@ -4,9 +4,10 @@
     Pour voir le monde à l'endroit, il faut le regarder à l'envers.
 
 !!! summary "Objectifs pédagogiques"
-    * Les opérateurs arithmétiques
-    * La dénomination de variables de type "long"
-    * Les boucles
+    * La démarche algorithmique.
+    * Les opérateurs arithmétiques.
+    * La dénomination de variables de type "long".
+    * Les boucles.
     
   
 ``` kotlin
