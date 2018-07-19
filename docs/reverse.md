@@ -1,5 +1,8 @@
 # Les nombres à l'envers
 
+!!! quote "Citation"
+    Pour voir le monde à l'endroit, il faut le regarder à l'envers.
+
 !!! summary "Objectifs pédagogiques"
     * Les opérateurs arithmétiques
     * La dénomination de variables de type "long"
