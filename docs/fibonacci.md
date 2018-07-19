@@ -1,7 +1,11 @@
 # La suite de Fibonacci
 
+!!! summary "Objectifs pédagogiques"
+    * Division du code.
+    * Différence entre les boucles "while" et "for".
+
 <center>
-<img src="../images/Fibonacci2.jpg" width="200">
+    <img src="../images/Fibonacci2.jpg" width="200">
 </center>
 
 [Leonardo Fibonacci](https://fr.wikipedia.org/wiki/Leonardo_Fibonacci) 
