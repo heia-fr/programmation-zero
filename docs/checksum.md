@@ -1,5 +1,10 @@
 # Les sommes de contrôle  
 
+!!! summary "Objectifs pédagogiques"
+    * Expliquer l'utilité des sommes de contrôle.
+    * Effectuer des conversions de type.
+    * Concevoir et réaliser un programme selon spécification.
+
 Les sommes de contrôles sont utilisés couramment pour vérifier qu'une suite de chiffres est correcte. On l'utilise pour vérifier les numéros des cartes de crédit, les numéros de référence des bulletins de versements, ou dans des protocoles de communication.
 
 Il existe plusieurs type de somme de contrôle et nous commençons avec une simple somme modulo 10 de tous les chiffres d'un nombre :
