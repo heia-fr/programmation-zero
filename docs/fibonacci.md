@@ -1,8 +1,8 @@
 # La suite de Fibonacci
 
 !!! summary "Objectifs pédagogiques"
-    * Division du code.
-    * Différence entre les boucles "while" et "for".
+    * Diviser le code.
+    * Expliquer la différence entre les boucles "while" et "for".
 
 <center>
     <img src="../images/Fibonacci2.jpg" width="200">
