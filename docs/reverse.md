@@ -1,4 +1,10 @@
 # Les nombres à l'envers
+
+!!! summary "Objectifs pédagogiques"
+    * Les opérateurs arithmétiques
+    * La dénomination de variables de type "long"
+    * Les boucles
+    
   
 ``` kotlin
 fun reverse (x: Long): Long {

@@ -9,7 +9,7 @@
 !!! summary "Objectifs pédagogiques"
     * Les variables
     * L'artithmétique Modulo
-    * Les boucle
+    * Les boucles
     * Les instructions conditionnelles
 
 On aimerait écrire un programme qui affiche les nombres entiers impairs entre 1 et 99.
