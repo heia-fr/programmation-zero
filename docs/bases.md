@@ -1,5 +1,15 @@
 # Les bases
 
+<center>
+<img src="../images/binary.png" width="300">
+</center>
+
+!!! summary "Objectifs pédagogiques"
+    * Définir une fonction avec types de paramètres adéquats.
+    * Utiliser les opérateurs arithmétiques.
+    * Manipuler des variables de type "String".
+
+
 ``` kotlin
 fun inBase2(number: Int): String {
     var n: Int = number
