@@ -30,6 +30,7 @@ theme: 'material'
 markdown_extensions:
   - admonition  
   - footnotes
+  - codehilite
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
