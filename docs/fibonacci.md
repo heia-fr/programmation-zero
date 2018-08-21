@@ -1,8 +1,14 @@
 # La suite de Fibonacci
 
+
 <center>
-<img src="../images/Fibonacci2.jpg" width="200">
+    <img src="../images/Fibonacci2.jpg" width="200">
 </center>
+
+!!! summary "Objectifs pédagogiques"
+    * Diviser le code.
+    * Expliquer la différence entre les boucles "while" et "for".
+
 
 [Leonardo Fibonacci](https://fr.wikipedia.org/wiki/Leonardo_Fibonacci) 
 était un mathématicien italien qui vécut de 1175 à 1250. En 1202, Leonardo Fibonacci publie l'ouvrage *Liber abaci*

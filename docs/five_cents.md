@@ -4,6 +4,11 @@
 <img src="../images/CH_CHF0.05.png" width="200">
 </center>
 
+!!! summary "Objectifs pédagogiques"
+	* Concevoir une solution.
+	* Employer des opérateurs arithmétiques.
+	* Utiliser Math.round().
+
 En Suisse, nous n'avons pas de monnaie plus petite qu'une pièce de 5 centimes. Si on veut écrire des programmes qui travaillent avec des
 valeurs financières, il peut donc s'avérer utile **d'arrondir** une valeur avec une précision de 5 centimes.
 

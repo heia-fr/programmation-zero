@@ -7,10 +7,10 @@
     Sans rien en lui qui pèse ou qui pose.
 
 !!! summary "Objectifs pédagogiques"
-    * Les variables
-    * L'artithmétique Modulo
-    * Les boucle
-    * Les instructions conditionnelles
+    * Les variables.
+    * L'artithmétique Modulo.
+    * Les boucles pour les commandes répétitives.
+    * Les instructions conditionnelles.
 
 On aimerait écrire un programme qui affiche les nombres entiers impairs entre 1 et 99.
 
