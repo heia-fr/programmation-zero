@@ -35,7 +35,7 @@ fun main(args: Array<String>) {
 ```
 
 L'instruction `for` permet de parcourir les éléments d'une liste. Ici nous avons besoin de la liste des nombres entre 1 et 99 et 
-en Kotlin, nous représentons ceci avec `i in 1..99`. On aurait aussi pu écrire `i in 1 until 100` qui signifie de 1 à 100, 100 non compris.
+en Kotlin, nous représentons ceci avec `i in 1..99`. En notation mathématique, on écrit: $[ 1, 99 ]$. On aurait aussi pu écrire `i in 1 until 100` qui signifie de 1 à 100, 100 non compris. En notation mathématique ça donne: $[ 1, 100 )$ ou $[ 1, 100 [$.
 
 Pour ne faire quelque chose que lorsqu'une condition est remplie (ici la condition c'est que le nombre soit impair), on utilise
 l'instruction `if`. Dans le jargon informatique, on parle d'une *instruction conditionnelle*. Les instructions qui seront
@@ -68,6 +68,61 @@ fun main(args: Array<String>) {
 ```
 
 Cette solution est efficace, mais pas meilleure, ni plus simple que la version précédente.
+
+En plus de faire une boucle avec l'instruction `for`, on peut aussi utilise l'instruction `while`. Dans cet example des nombres impaires, on pourrait penser comme ça: «On commence avec la variable `i` à 1, et **tant que** i est plus petit que 100, alors on affiche `i` et on ajoute 2 à `i`». L'instruction `while` permet justement de réaliser cette notion de **tant que**. Voici le code correspondant:
+
+``` kotlin
+fun main(args: Array<String>) {
+    var i = 1          // on commence avec i à 1
+    while (i < 100) {  // tant que i est plus petit que 100...
+        println(i)     //     affiche i...
+        i += 2         //     et ajoute 2 à i
+    }
+}
+```
+
+Notez que pour ajouter 2 à `i` (on dit aussi *incrémenter* `i` de 2), nous avons écrit `i += 2`; en Kotlin (comme en Java), cette instruction est équivalente à `i = i + 2`.
+
+!!! attention
+    **Les codes ci-dessous ne sont pas des exemples à suivre**. Ils sont juste là pour montrer qu'un programme peut être correct, mais pas forcément efficace ni élégant.
+
+    On peut vous dire qu'un nombre impair est un nombre qui se termine soit par 1, soit par 3, soit par 5, soit par 7, soit par 9. Cette définition n'est pas fausse, mais si vous vous basez sur elle pour implémenter votre programme, vous pourriez écrire quelque chose comme ça:
+
+    ``` kotlin
+    for (i in 1 until 100) {
+        val lastDigit = i % 10    // isoler le dernier chiffre
+        if (lastDigit == 1
+                || lastDigit == 3 // le symbole || est l'opérateur "ou"
+                || lastDigit == 5
+                || lastDigit == 7
+                || lastDigit == 9) {
+            println(i)
+        }
+    }
+    ```
+
+    ou encore
+
+    ``` kotlin
+    val odd = intArrayOf(1, 3, 5, 7, 9)
+    for (i in 1 until 100) {
+        val lastDigit = i % 10
+        if (odd.contains(lastDigit)) {
+            println(i)
+        }
+    }
+    ```
+
+    Ces deux programmes ne sont pas faux et ils affichent bien les nombres impaires entre 1 et 100, mais ils ne sont pas efficace (ils prennent plus de temps à s'exécuter et prennent plus de place en mémoire) et ils ne sont pas élégants. Une erreur peut plus facilement s'y glisser et le code est plus difficile à maintenir. On constate cependant que beaucoup de programmeurs amateurs produisent ce genre de code et s'étonnent ensuite que leur programme tourne mal.
+
+
+    <center>
+        **Oubliez maintenant ces codes!**<br>
+        <img src="../images/neuralizer.jpg" width="400">
+    </center>
+
+
+
 
 !!! note "Exercice"
     Modifiez le programme pour qu'il affiche les nombres entre 1 et 100 qui sont divisibles par 3.

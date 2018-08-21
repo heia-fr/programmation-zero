@@ -2,7 +2,7 @@ site_name: Programmation Zéro
 
 copyright: "Copyright &copy; 2017 Haute école d'ingénierie et d'architecture de Fribourg"
 
-pages:
+nav:
     - Introduction: index.md
     - Installation: install.md
     - Bonjour le monde: hello_world.md
