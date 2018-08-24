@@ -19,6 +19,6 @@ Si vous avez des questions pendant l'académie d'été, ou même pendant le seme
 
 ## Ressources
 
-Ce site est à votre disposition à l'adresse [bit.ly/przero](http://bit.ly/przero).
+Ce site est à votre disposition à l'adresse <https://programmation-zero.tic.heia-fr.ch/>.
 
 Pour quelques exercices, vous aurez besoin de liste de mots ou de données spécifiques. Vous pouvez déjà [télécharger](https://gitlab.com/HEIA-FR/programmation-zero/raw/website/docs/data.zip) le fichier «zip». Nous vous montrerons pendant le cours comment l'utiliser.
