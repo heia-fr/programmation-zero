@@ -1,34 +1,35 @@
 site_name: Programmation Zéro
-
-copyright: "Copyright &copy; 2017 Haute école d'ingénierie et d'architecture de Fribourg"
+site_description: Cours d'introduction à la programmation pour les étudiants de la HEIA-FR
+copyright: "Copyright &copy; 2018 Haute école d'ingénierie et d'architecture de Fribourg"
+site_url: https://programmation-zero.tic.heia-fr.ch/
 
 nav:
-    - Introduction: index.md
-    - Installation: install.md
-    - Bonjour le monde: hello_world.md
-    - Les nombres impairs: odd_numbers.md
-    - La suite de Fibonacci: fibonacci.md
-    - L'arrondi à 5 centimes: five_cents.md
-    - Les sommes de contrôle: checksum.md
-    - Les nombres à l'envers: reverse.md
-    - Le PGCD: euclid.md
-    - Les bases 2 et 10: bases.md
-    - Les œuvres d'art: art.md
-    - Les nombres premiers: primes.md
-    - Les palindromes: palindromes.md
-    - Je cache un nombre et tu le devines: hide_a_number.md
-#    - Tu caches un nombre et je le devine: guess_a_number.md
-    - Les tours de Hanoï: hanoi.md
-    - La récursivité: recursivity.md
-    - Compter les lettres: letter_count.md
-    - Facebook Sticker: facebook.md
-    - Les éléments chimiques: elements.md
-    - Besoin de plus d'argent ?: more_money.md
+  - Introduction: index.md
+  - Installation: install.md
+  - Bonjour le monde: hello_world.md
+  - Les nombres impairs: odd_numbers.md
+  - La suite de Fibonacci: fibonacci.md
+  - L'arrondi à 5 centimes: five_cents.md
+  - Les sommes de contrôle: checksum.md
+  - Les nombres à l'envers: reverse.md
+  - Le PGCD: euclid.md
+  - Les bases 2 et 10: bases.md
+  - Les œuvres d'art: art.md
+  - Les nombres premiers: primes.md
+  - Les palindromes: palindromes.md
+  - Je cache un nombre et tu le devines: hide_a_number.md
+  #    - Tu caches un nombre et je le devine: guess_a_number.md
+  - Les tours de Hanoï: hanoi.md
+  - La récursivité: recursivity.md
+  - Compter les lettres: letter_count.md
+  - Facebook Sticker: facebook.md
+  - Les éléments chimiques: elements.md
+  - Besoin de plus d'argent ?: more_money.md
 
 theme: 'material'
 
 markdown_extensions:
-  - admonition  
+  - admonition
   - footnotes
   - codehilite
   - pymdownx.arithmatex
@@ -47,12 +48,12 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-#   - mdx_math
+#  - mdx_math
 
-extra_javascript: 
-    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 extra:
-    palette:
-        primary: 'blue'
-        accent: 'orange'
+  palette:
+    primary: 'blue'
+    accent: 'orange'
