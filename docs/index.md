@@ -22,3 +22,9 @@ Si vous avez des questions pendant l'académie d'été, ou même pendant le seme
 Ce site est à votre disposition à l'adresse <https://programmation-zero.tic.heia-fr.ch/>.
 
 Pour quelques exercices, vous aurez besoin de liste de mots ou de données spécifiques. Vous pouvez déjà [télécharger](https://gitlab.com/HEIA-FR/programmation-zero/raw/website/docs/data.zip) le fichier «zip». Nous vous montrerons pendant le cours comment l'utiliser.
+
+## A propos de ce site
+
+Ce site à été créé en 2017 par Jacques Supcik. Le contenu à été complété par Sylvain Julmy, Damien Goetschi et Sandy Ingram. Merci aussi à Frédéric Bapst, Rudolf Scheurer, Philippe Joye et Serge Ayer, pour leurs commentaires constructifs.
+
+Ce site est fait avec [MkDocs](https://www.mkdocs.org/) et [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). Le code source du site est à disposition sur [gitlab.com](https://gitlab.com/HEIA-FR/programmation-zero/tree/website). Le site est hébergé par [netlify](https://www.netlify.com/).
