@@ -58,6 +58,49 @@ fun zerosum(x: Long): Long {
 6512880
 ```
 
+!!! note "Note"
+    A la place de `(10 - checksum(x)) % 10` on aurait aussi pu écrire `(9 * checksum(x)) % 10`.
+    Vérifiez avec quelques valeurs de `x`.
+
+
+
 !!! note "Exercice"
     Modifiez votre programme pour calculer la somme de contrôle selon
     la [formule de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm)
+
+    ??? success "Solution"
+        ``` kotlin
+        fun luhn(x: Long): Int {
+            var t: Long = x
+            var result: Int = 0
+            var factor: Int = 2
+
+            while (t != 0L) {
+                var d: Int = (t % 10).toInt() * factor
+                if (d > 9) d -= 9
+                result = (result + d) % 10
+                t /= 10L
+                factor = 3 - factor
+            }
+            return result
+        }
+        ```
+
+        ou en récursif:
+
+        ``` kotlin
+        fun luhnRec(x: Long, factor: Int): Int {
+            if (x == 0L) {
+                return 0;
+            }
+            var d: Int = (x % 10).toInt() * factor
+            if (d > 9) d -= 9
+            return (d + luhnRec(x / 10L, 3 - factor)) % 10
+        }
+        ```
+
+        et on appelle la fonction avec 2 comme deuxième argument:
+
+        ``` kotlin
+        println(luhnRec(7992739871L, 2))
+        ```
