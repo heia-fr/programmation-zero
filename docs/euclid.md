@@ -105,6 +105,7 @@ fun gcd(x: Int, y: Int): Int {
     return a
 }
 ```
+
 !!! note "Exercice"
     Ecrivez une version récursive du programme précédent
 
