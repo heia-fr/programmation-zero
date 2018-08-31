@@ -120,5 +120,6 @@ fun gcd(x: Int, y: Int): Int {
             }
         }
         ```
+
 !!! note "Exercice"
     Comment testez-vous ce programme (quelles sont les valeurs de x et de y que vous utilisez pour démontrer que votre programme fonctionne) ? Que se passe-t-il si une des valeurs est négative ou même zéro ?
