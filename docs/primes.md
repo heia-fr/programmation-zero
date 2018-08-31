@@ -10,7 +10,7 @@
 
 ``` kotlin
 fun primes(n: Int): List<Int> {
-    val sieve: Array<Boolean> = Array(n, { _ -> true })
+    val sieve: Array<Boolean> = Array(n, { true })
 	sieve[0] = false
 	sieve[1] = false
     for (i: Int in 2 until n) {
