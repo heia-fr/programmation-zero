@@ -14,7 +14,7 @@ Voici un programme qui calcule le PGCD selon cette méthode:
 fun gcd(x: Int, y: Int): Int {
     var i = 1
     var max = 1
-    while (i < x && i < y) {
+    while (i <= x && i <= y) {
         if (x % i == 0 && y % i == 0) {
             max = i
         }
