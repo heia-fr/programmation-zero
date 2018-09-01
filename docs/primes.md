@@ -30,7 +30,9 @@ fun main(args: Array<String>) {
 [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 ```
 
-Petite optimisation
+## Quelques optimisations
+
+Première optimisation pour reduire le nombre d'itérations
 
 ``` kotlin
 fun primes(n: Int): List<Int> {
@@ -48,7 +50,7 @@ fun primes(n: Int): List<Int> {
 }
 ```
 
-On s'arrête à \(\sqrt{n}\)
+Et encore: on s'arrête à \(\sqrt{n}\)
 
 ``` kotlin
 fun primes(n: Int): List<Int> {
@@ -65,6 +67,8 @@ fun primes(n: Int): List<Int> {
 	return sieve.withIndex().filter { i -> i.value }.map { i -> i.index }
 }
 ```
+
+## Variante
 
 Construction itérative de la solution:
 
