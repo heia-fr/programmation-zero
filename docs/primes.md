@@ -34,7 +34,7 @@ Petite optimisation
 
 ``` kotlin
 fun primes(n: Int): List<Int> {
-    val sieve: Array<Boolean> = Array(n, { _ -> true })
+    val sieve: Array<Boolean> = Array(n, { true })
 	sieve[0] = false
 	sieve[1] = false
     for (i: Int in 2 until n) {
@@ -52,7 +52,7 @@ On s'arrête à \(\sqrt{n}\)
 
 ``` kotlin
 fun primes(n: Int): List<Int> {
-    val sieve: Array<Boolean> = Array(n, { _ -> true })
+    val sieve: Array<Boolean> = Array(n, { true })
 	sieve[0] = false
 	sieve[1] = false
     for (i: Int in 2 until Math.sqrt(n.toDouble()).toInt()) {
@@ -70,7 +70,7 @@ Construction itérative de la solution:
 
 ``` kotlin
 fun primes(n: Int): List<Int> {
-    val sieve: Array<Boolean> = Array(n, { _ -> true })
+    val sieve: Array<Boolean> = Array(n, { true })
 	val result: ArrayList<Int> = ArrayList()
 	sieve[0] = false
 	sieve[1] = false
