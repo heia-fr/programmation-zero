@@ -1,11 +1,10 @@
 # Des œuvres d'art
 
-## Le carré
-
 !!! summary "Objectifs didactiques"
     * Gérer plusieures boucles imbriqués
     * Structuration du code
 
+## Le carré
 
 ```
 **********
