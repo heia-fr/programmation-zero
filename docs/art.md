@@ -2,6 +2,11 @@
 
 ## Le carré
 
+!!! summary "Objectifs didactiques"
+    * Gérer plusieures boucles imbriqués
+    * Structuration du code
+
+
 ```
 **********
 **********
