@@ -4,6 +4,9 @@
     * Gérer plusieures boucles imbriqués
     * Structuration du code
 
+Dans la programmation d'algorithmes, souvent il est nécessaire d'utiliser plusieurs boucles imbriquées.
+Une façon classique d'exercer cela est d'essayer de produire des petits "œuvres d'art".
+
 ## Le carré
 
 ```
@@ -23,7 +26,7 @@
 fun main(args: Array<String>) {
     val size = 10
     for (y in 1..size) {
-        for (x in 0 until size) {
+        for (x in 1..size) {
             print("*")
         }
         println()
@@ -31,10 +34,12 @@ fun main(args: Array<String>) {
 }
 ```
 
+Voici une alternative pour la formulation des boucles de type ```for``` :
+
 ``` kotlin
 fun main(args: Array<String>) {
     val size = 10
-    for (y in 0 until size) {
+    for (y in 0 until size) { // itération de 0 à size-1 !
         for (x in 0 until size) {
             print("*")
         }
