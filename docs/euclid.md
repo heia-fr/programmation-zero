@@ -49,7 +49,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-On peut assi résoudre avec une version récursive:
+On peut aussi formuler une version récursive:
 
 ```kotlin
 fun gcd(x: Int, y: Int): Int {
