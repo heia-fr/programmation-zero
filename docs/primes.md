@@ -57,8 +57,8 @@ Première optimisation pour reduire le nombre d'itérations
     	isPrimeArray[0] = false
     	isPrimeArray[1] = false
         for (i: Int in 2 until n) {
-    		if (isPrimeArray[i]) { // only do the second loop if i is prime
-    		    println(i) // print i since it is prime
+    		if (isPrimeArray[i]) { // inner loop only if i is prime
+    		    println(i) // directly print i since it is prime
     	        for (j: Int in i * 2 until n step i) {
     	            isPrimeArray[j] = false
     	        }
@@ -77,8 +77,8 @@ Et encore: on s'arrête à \(\sqrt{n}\)
     	isPrimeArray[0] = false
     	isPrimeArray[1] = false
         for (i: Int in 2 until Math.sqrt(n.toDouble()).toInt()) {
-    		if (isPrimeArray[i]) { // only do the second loop if i is prime
-    		    println(i) // print i since it is prime
+    		if (isPrimeArray[i]) { 
+    		    println(i)
     	        for (j: Int in i * 2 until n step i) {
     	            isPrimeArray[j] = false
     	        }
@@ -100,7 +100,7 @@ Construction itérative de la solution:
     	sieve[0] = false
     	sieve[1] = false
         for (i: Int in 2 until n) {
-    		if (sieve[i]) { // only do the second loop if i is prime
+    		if (sieve[i]) {
     			result.add(i)
     	        for (j: Int in i * 2 until n step i) {
     	            sieve[j] = false
