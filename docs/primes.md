@@ -4,7 +4,7 @@
 <img src="../images/Eratosthene.01.png" width="200">
 </center>
 
-!!! quote "Wikipedia"
+!!! quote "Entrée Wikipedia pour Ératosthène"
     Disciple d'Ariston de Chios, 
     [Ératosthène](https://fr.wikipedia.org/wiki/%C3%89ratosth%C3%A8ne)
     fut nommé à la tête de la bibliothèque
