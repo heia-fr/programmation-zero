@@ -116,10 +116,10 @@ Variante en structurant le code avec une fonction supplémentaire:
 
     ``` kotlin
     fun main(args: Array<String>) {
-        val numberOfTooth = 3
-        val size = 5
-        for (n in 1..numberOfTooth) {
-            for (y in 1..size) {
+        val numberOfTooths = 3
+        val sizeTooth = 5
+        for (n in 1..numberOfTooths) {
+            for (y in 1..sizeTooth) {
                 for (x in 1..y) {
                     print("*")
                 }
@@ -171,30 +171,25 @@ Variante en structurant le code avec une fonction supplémentaire:
     }
     ```
 
-??? success "Code (avec fonction supplémentaire)"
+??? success "Code (structuré avec fonctions supplémentaires)"
 
     ``` kotlin
-    fun printLine(size: Int, len: Int) {
-        for (x in 1..size-len) {
-            print(" ")
-        }
-        for (x in 1 until 2*len) {
-            print("*")
-        }
+    fun printDiamondLine(nbrSpaces: Int, nbrStars: Int) {
+        printCharNTimes(' ', nbrSpaces)
+        printCharNTimes('*', nbrStars)
         println()
     }
 
     fun main(args: Array<String>) {
-        val size = 5
-        for (y in 1..size) {
-            printLine(size, y)
+        val sizeDiamond = 6
+        for (n in 1..sizeDiamond) {
+            printDiamondLine(sizeDiamond-y, (2*n)-1)
         }
-        for (y in size-1 downTo 1) {
-            printLine(size, y)
+        for (n in sizeDiamond-1 downTo 1) {
+            printDiamondLine(sizeDiamond-y, (2*n)-1)
         }
     }
     ```
-
 
 ## Le sapin de Noël
 
