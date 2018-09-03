@@ -1,10 +1,12 @@
 # Les Nombres premiers
 
-<center>
-<img src="../images/Eratosthene.01.png" width="200">
-</center>
+!!! summary "Objectifs didactiques"
+    * Utilisation d'un tableau (array)
+    * Consideration d'optimisation
+
 
 !!! quote "Entrée Wikipedia pour Ératosthène"
+    <img align="right" src="../images/Eratosthene.01.png" width="100">
     Disciple d'Ariston de Chios, 
     [Ératosthène](https://fr.wikipedia.org/wiki/%C3%89ratosth%C3%A8ne)
     fut nommé à la tête de la bibliothèque
