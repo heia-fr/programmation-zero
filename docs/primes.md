@@ -4,6 +4,16 @@
 <img src="../images/Eratosthene.01.png" width="200">
 </center>
 
+!!! quote "Wikipedia"
+    Disciple d'Ariston de Chios, 
+    [**Ératosthène**] (https://fr.wikipedia.org/wiki/%C3%89ratosth%C3%A8ne)
+    fut nommé à la tête de la bibliothèque
+    d'Alexandrie vers -245 à la demande de Ptolémée III, pharaon d'Égypte, et fut
+    précepteur de son fils Ptolémée IV. Selon Suidas, il se laissa mourir de faim,
+    parce que, devenu aveugle, il ne pouvait plus admirer les étoiles.
+
+## Le crible d'Ératosthène
+
 <center>
 <img src="../images/New_Animation_Sieve_of_Eratosthenes.gif" width="400">
 </center>
