@@ -34,39 +34,43 @@ fun main(args: Array<String>) {
 
 Première optimisation pour reduire le nombre d'itérations
 
-``` kotlin
-fun primes(n: Int): List<Int> {
-    val sieve: Array<Boolean> = Array(n, { true })
-	sieve[0] = false
-	sieve[1] = false
-    for (i: Int in 2 until n) {
-		if (sieve[i]) { // only do the second loop if i is prime
-	        for (j: Int in i * 2 until n step i) {
-	            sieve[j] = false
-	        }
-		}	
+??? success "Code"
+
+    ``` kotlin
+    fun primes(n: Int): List<Int> {
+        val sieve: Array<Boolean> = Array(n, { true })
+    	sieve[0] = false
+    	sieve[1] = false
+        for (i: Int in 2 until n) {
+    		if (sieve[i]) { // only do the second loop if i is prime
+    	        for (j: Int in i * 2 until n step i) {
+    	            sieve[j] = false
+    	        }
+    		}	
+        }
+    	return sieve.withIndex().filter { i -> i.value }.map { i -> i.index }
     }
-	return sieve.withIndex().filter { i -> i.value }.map { i -> i.index }
-}
-```
+    ```
 
 Et encore: on s'arrête à \(\sqrt{n}\)
 
-``` kotlin
-fun primes(n: Int): List<Int> {
-    val sieve: Array<Boolean> = Array(n, { true })
-	sieve[0] = false
-	sieve[1] = false
-    for (i: Int in 2 until Math.sqrt(n.toDouble()).toInt()) {
-		if (sieve[i]) { // only do the second loop if i is prime
-	        for (j: Int in i * 2 until n step i) {
-	            sieve[j] = false
-	        }
-		}	
+??? success "Code"
+
+    ``` kotlin
+    fun primes(n: Int): List<Int> {
+        val sieve: Array<Boolean> = Array(n, { true })
+    	sieve[0] = false
+    	sieve[1] = false
+        for (i: Int in 2 until Math.sqrt(n.toDouble()).toInt()) {
+    		if (sieve[i]) { // only do the second loop if i is prime
+    	        for (j: Int in i * 2 until n step i) {
+    	            sieve[j] = false
+    	        }
+    		}	
+        }
+    	return sieve.withIndex().filter { i -> i.value }.map { i -> i.index }
     }
-	return sieve.withIndex().filter { i -> i.value }.map { i -> i.index }
-}
-```
+    ```
 
 ## Variante
 
