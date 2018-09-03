@@ -19,20 +19,25 @@
 </center>
 
 ``` kotlin
-fun primes(n: Int): List<Int> {
-    val sieve: Array<Boolean> = Array(n, { true })
-	sieve[0] = false
-	sieve[1] = false
+fun printPrimes(n: Int) {
+    val isPrimeArray: Array<Boolean> = Array(n, { true })
+	isPrimeArray[0] = false
+	isPrimeArray[1] = false
     for (i: Int in 2 until n) {
-        for (j: Int in i * 2 until n step i) {
-            sieve[j] = false
+        for (j: Int in i*2 until n step i) { // j=i*2,i*3, i*4, ...
+            isPrimeArray[j] = false
         }
     }
-	return sieve.withIndex().filter { i -> i.value }.map { i -> i.index }
+	
+	// loop through array and print primes
+    for (i: Int in 2 until n)
+        if (isPrimeArray[i])
+            println(i)
+
 }
 
 fun main(args: Array<String>) {
-    println(primes(100))
+    printPrimes(100))
 }
 ```
 
@@ -47,18 +52,18 @@ Première optimisation pour reduire le nombre d'itérations
 ??? success "Code"
 
     ``` kotlin
-    fun primes(n: Int): List<Int> {
-        val sieve: Array<Boolean> = Array(n, { true })
-    	sieve[0] = false
-    	sieve[1] = false
+    fun primes(n: Int) {
+        val isPrimeArray: Array<Boolean> = Array(n, { true })
+    	isPrimeArray[0] = false
+    	isPrimeArray[1] = false
         for (i: Int in 2 until n) {
-    		if (sieve[i]) { // only do the second loop if i is prime
+    		if (isPrimeArray[i]) { // only do the second loop if i is prime
+    		    println(i) // print i since it is prime
     	        for (j: Int in i * 2 until n step i) {
-    	            sieve[j] = false
+    	            isPrimeArray[j] = false
     	        }
     		}	
         }
-    	return sieve.withIndex().filter { i -> i.value }.map { i -> i.index }
     }
     ```
 
@@ -67,18 +72,18 @@ Et encore: on s'arrête à \(\sqrt{n}\)
 ??? success "Code"
 
     ``` kotlin
-    fun primes(n: Int): List<Int> {
-        val sieve: Array<Boolean> = Array(n, { true })
-    	sieve[0] = false
-    	sieve[1] = false
+    fun primes(n: Int) {
+        val isPrimeArray: Array<Boolean> = Array(n, { true })
+    	isPrimeArray[0] = false
+    	isPrimeArray[1] = false
         for (i: Int in 2 until Math.sqrt(n.toDouble()).toInt()) {
-    		if (sieve[i]) { // only do the second loop if i is prime
+    		if (isPrimeArray[i]) { // only do the second loop if i is prime
+    		    println(i) // print i since it is prime
     	        for (j: Int in i * 2 until n step i) {
-    	            sieve[j] = false
+    	            isPrimeArray[j] = false
     	        }
     		}	
         }
-    	return sieve.withIndex().filter { i -> i.value }.map { i -> i.index }
     }
     ```
 
