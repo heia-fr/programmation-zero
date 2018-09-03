@@ -5,7 +5,7 @@
 </center>
 
 <center>
-<img src="../images/Sieve_of_Eratosthenes_animation.gif" width="400">
+<img src="../images/New_Animation_Sieve_of_Eratosthenes.gif" width="400">
 </center>
 
 ``` kotlin
