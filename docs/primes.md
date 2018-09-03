@@ -6,7 +6,7 @@
 
 !!! quote "Wikipedia"
     Disciple d'Ariston de Chios, 
-    [**Ératosthène**] (https://fr.wikipedia.org/wiki/%C3%89ratosth%C3%A8ne)
+    [Ératosthène](https://fr.wikipedia.org/wiki/%C3%89ratosth%C3%A8ne)
     fut nommé à la tête de la bibliothèque
     d'Alexandrie vers -245 à la demande de Ptolémée III, pharaon d'Égypte, et fut
     précepteur de son fils Ptolémée IV. Selon Suidas, il se laissa mourir de faim,
