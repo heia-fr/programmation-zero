@@ -4,7 +4,6 @@
     * Utilisation d'un tableau (array)
     * Consideration d'optimisation
 
-
 !!! quote "Entrée Wikipedia pour Ératosthène"
     <img align="right" src="../images/Eratosthene.01.png" width="100">
     Disciple d'Ariston de Chios, 
@@ -13,6 +12,9 @@
     d'Alexandrie vers -245 à la demande de Ptolémée III, pharaon d'Égypte, et fut
     précepteur de son fils Ptolémée IV. Selon Suidas, il se laissa mourir de faim,
     parce que, devenu aveugle, il ne pouvait plus admirer les étoiles.
+    
+    En tant que mathématicien, il établit le crible d'Ératosthène, méthode qui
+    permet de déterminer par exclusion tous les nombres premiers.
 
 ## Le crible d'Ératosthène
 
