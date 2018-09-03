@@ -72,20 +72,22 @@ fun primes(n: Int): List<Int> {
 
 Construction itérative de la solution:
 
-``` kotlin
-fun primes(n: Int): List<Int> {
-    val sieve: Array<Boolean> = Array(n, { true })
-	val result: ArrayList<Int> = ArrayList()
-	sieve[0] = false
-	sieve[1] = false
-    for (i: Int in 2 until n) {
-		if (sieve[i]) { // only do the second loop if i is prime
-			result.add(i)
-	        for (j: Int in i * 2 until n step i) {
-	            sieve[j] = false
-	        }
-		}	
+??? success "Code"
+
+    ``` kotlin
+    fun primes(n: Int): List<Int> {
+        val sieve: Array<Boolean> = Array(n, { true })
+    	val result: ArrayList<Int> = ArrayList()
+    	sieve[0] = false
+    	sieve[1] = false
+        for (i: Int in 2 until n) {
+    		if (sieve[i]) { // only do the second loop if i is prime
+    			result.add(i)
+    	        for (j: Int in i * 2 until n step i) {
+    	            sieve[j] = false
+    	        }
+    		}	
+        }
+    	return result
     }
-	return result
-}
-```
+    ```
