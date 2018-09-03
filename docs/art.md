@@ -24,9 +24,9 @@ Une façon classique d'exercer cela est d'essayer de produire des petits "œuvre
 
 ``` kotlin
 fun main(args: Array<String>) {
-    val size = 10
-    for (y in 1..size) {
-        for (x in 1..size) {
+    val sizeSquare = 10
+    for (y in 1..sizeSquare) {
+        for (x in 1..sizeSquare) {
             print("*")
         }
         println()
@@ -38,9 +38,9 @@ Voici une alternative pour la formulation des boucles de type ```for``` :
 
 ``` kotlin
 fun main(args: Array<String>) {
-    val size = 10
-    for (y in 0 until size) { // itération de 0 à size-1 !
-        for (x in 0 until size) {
+    val sizeSquare = 10
+    for (y in 0 until sizeSquare) { // itération de 0 à size-1 !
+        for (x in 0 until sizeSquare) {
             print("*")
         }
         println()
@@ -62,8 +62,8 @@ fun main(args: Array<String>) {
 
 ``` kotlin
 fun main(args: Array<String>) {
-    val size = 7
-    for (y in 1..size) {
+    val sizeTriangle = 7
+    for (y in 1..sizeTriangle) {
         for (x in 1..y) {
             print("*")
         }
@@ -72,6 +72,25 @@ fun main(args: Array<String>) {
 }
 ```
 
+Variante en structurant le code avec une fonction supplémentaire:
+
+??? success "Code"
+
+    ``` kotlin
+    fun printCharNTimes(c:Char, n:Int) {
+        for (x in 1..n) {
+            print(c)
+        }
+    }
+
+    fun main(args: Array<String>) {
+        val sizeTriangle = 7
+        for (n in 1..sizeTriangle) {
+            printCharNTimes('*', n)
+            println()
+        }
+    }
+    ```
 
 ## Les dents de scie
 
@@ -109,7 +128,6 @@ fun main(args: Array<String>) {
         }
     }
     ```
-
 
 ## Le diamant
 
