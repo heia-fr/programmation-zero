@@ -1,5 +1,7 @@
 # Compter les lettres
 
+[Fichier avec le dictionnaire des mots français](/data/french.txt) 
+
 ``` kotlin
 import java.io.File
 
