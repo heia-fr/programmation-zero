@@ -221,12 +221,12 @@ L'idée est de résoudre une partie du problème et de déléguer le reste du ca
 
         // Even and odd using simple recursion
         object SimpleRecursion {
-            fun odd(n: Int): Boolean =
+            fun even(n: Int): Boolean =
                     if (n == 0) true
                     else if (n == 1) false
                     else odd(n - 2)
 
-            fun even(n: Int): Boolean =
+            fun odd(n: Int): Boolean =
                     if (n == 0) false
                     else if (n == 1) true
                     else even(n - 2)
@@ -234,12 +234,12 @@ L'idée est de résoudre une partie du problème et de déléguer le reste du ca
 
         //Even and odd using mutual recursion
         object MutualRecursion {
-            fun odd(n: Int): Boolean =
+            fun even(n: Int): Boolean =
                     if (n == 0) true
                     else if (n == 1) false
                     else even(n - 1)
 
-            fun even(n: Int): Boolean =
+            fun odd(n: Int): Boolean =
                     if (n == 0) false
                     else if (n == 1) true
                     else odd(n - 1)
