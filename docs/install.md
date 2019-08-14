@@ -13,8 +13,8 @@ d'un ordinateur avec les caractéristiques suivantes:
 ## Java
 
 Kotlin génère du code pour la machine virtuelle «Java» et pour exécuter vos programmes, vous aurez besoin de Java. Vous pouvez le
-[télécharger](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) gratuitement depuis le site Internet de java.
-Pour ce cours, nous utiliserons la version 8 de java.
+[télécharger](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html) gratuitement depuis le site Internet de java.
+Pour ce cours, nous utiliserons la version 11 de java.
 
 ## JetBrain IntelliJ IDEA Community Edition
 
