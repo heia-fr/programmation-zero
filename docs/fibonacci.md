@@ -194,7 +194,10 @@ fun main(args: Array<String>) {
 }
 ```
 
-Cette fois, la fonction `Fibonacci` doit retourner une valeur, et nous indiquons
+!!! question "Question"
+    Est-ce que cette version est meilleure ou moins bien que la précédente ?
+
+Cette fois, la fonction `fibonacci` doit retourner une valeur, et nous indiquons
 ceci avec le `: Int` qui suit les arguments entre parenthèses. Ceci indique
 que la fonction est censée retourner quelque chose et ce quelque chose est de
 type entier (`Int`). Dans le corps de la fonction, on doit avoir une instruction `return`
@@ -218,6 +221,63 @@ Notez que nous avons appelé la fonction `fibonacci` à l'intérieur de
 la fonction `fibonacci` elle-même. Cette construction s'appelle la *récursivité*
 et c'est on concept très puissant en programmation. Nous y reviendrons plus
 en détail dans une leçon suivante.
+
+un bon développeur ne se contente pas de "juste" écrire du code. Il vérifie aussi
+que son code soit correct et efficace.
+
+Une bonne manière pour tester son code est d'écrire des _tests unitaires_. Ces
+tests unitaires valident qu'une fonction donne bien les bonnes réponses pour les
+valeurs correspondantes passées en paramètre. Pour notre fonction `fibonacci`,
+nous pouvons par exemple vérifier que `fibonacci(10)` donne bien `55`. Et si
+c'est bien le cas, pouvons nous en déduire que le programme est correct ?
+
+!!! quote "Edsger W. Dijkstra - NATO Software Engineering Conference - October 1969"
+    Testing shows the presence, not the absence of bugs
+
+Comme l'a écrit Edsger W. Dijkstra, les tests ne permettent pas de prouver
+l'absence de bugs, mais en testant plusieurs valeurs, on peut augmenter notre
+confiance dans la solution implémentée.
+
+
+```kotlin
+import org.junit.jupiter.api.Test
+
+import org.junit.jupiter.api.Assertions.*
+
+internal class FibonacciKtTest {
+
+    @Test
+    fun test_fibonacci() {
+        assertEquals(0, fibonacci(0))
+        assertEquals(1, fibonacci(1))
+        assertEquals(1, fibonacci(2))
+        assertEquals(2, fibonacci(3))
+        assertEquals(3, fibonacci(4))
+        assertEquals(5, fibonacci(5))
+        assertEquals(8, fibonacci(6))
+        assertEquals(55, fibonacci(10))
+    }
+
+}
+```
+
+Attention au dépassement de capacité :
+
+```kotlin
+        ...
+        assertEquals(1134903170, fibonacci(45))
+        assertEquals(1836311903, fibonacci(46))
+        assertEquals(3672623806, fibonacci(47))
+        ...
+```
+
+Tester les cas spéciaux :
+
+```kotlin
+        ...
+        assertEquals(?, fibonacci(-1))
+        ...
+```
 
 !!! tip "Avancé"
     De la même manière que pour les nombres impairs, on peut aussi définir un «stream»
