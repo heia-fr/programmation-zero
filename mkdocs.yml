@@ -26,6 +26,7 @@ nav:
   - Facebook Sticker: facebook.md
   - Les éléments chimiques: elements.md
   - Besoin de plus d'argent ?: more_money.md
+  - Données: data.md
 
 theme: 'material'
 
