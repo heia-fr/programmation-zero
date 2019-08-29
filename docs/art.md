@@ -116,10 +116,10 @@ Variante en structurant le code avec une fonction supplémentaire:
 
     ``` kotlin
     fun main(args: Array<String>) {
-        val numberOfTooths = 3
-        val sizeTooth = 5
-        for (n in 1..numberOfTooths) {
-            for (y in 1..sizeTooth) {
+        val numberOfTeeth = 3
+        val sizeOfTooth = 5
+        for (n in 1..numberOfTeeth) {
+            for (y in 1..sizeOfTooth) {
                 for (x in 1..y) {
                     print("*")
                 }
