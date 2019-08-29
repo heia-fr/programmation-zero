@@ -182,11 +182,11 @@ Variante en structurant le code avec une fonction supplémentaire:
 
     fun main(args: Array<String>) {
         val sizeDiamond = 6
-        for (n in 1..sizeDiamond) {
-            printDiamondLine(sizeDiamond-y, (2*n)-1)
+        for (y in 1..sizeDiamond) {         // first half of diamond
+            printDiamondLine(sizeDiamond-y, (2*y)-1)
         }
-        for (n in sizeDiamond-1 downTo 1) {
-            printDiamondLine(sizeDiamond-y, (2*n)-1)
+        for (y in sizeDiamond-1 downTo 1) { // second half
+            printDiamondLine(sizeDiamond-y, (2*y)-1)
         }
     }
     ```
