@@ -39,7 +39,7 @@ Voici une alternative pour la formulation des boucles de type ```for``` :
 ``` kotlin
 fun main(args: Array<String>) {
     val sizeSquare = 10
-    for (y in 0 until sizeSquare) { // itération de 0 à size-1 !
+    for (y in 0 until sizeSquare) { // itération de 0 à sizeSquare-1 !
         for (x in 0 until sizeSquare) {
             print("*")
         }
