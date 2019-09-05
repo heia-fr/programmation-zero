@@ -39,7 +39,7 @@ Voici une alternative pour la formulation des boucles de type ```for``` :
 ``` kotlin
 fun main(args: Array<String>) {
     val sizeSquare = 10
-    for (y in 0 until sizeSquare) { // itération de 0 à size-1 !
+    for (y in 0 until sizeSquare) { // itération de 0 à sizeSquare-1 !
         for (x in 0 until sizeSquare) {
             print("*")
         }
@@ -116,10 +116,10 @@ Variante en structurant le code avec une fonction supplémentaire:
 
     ``` kotlin
     fun main(args: Array<String>) {
-        val numberOfTooths = 3
-        val sizeTooth = 5
-        for (n in 1..numberOfTooths) {
-            for (y in 1..sizeTooth) {
+        val numberOfTeeth = 3
+        val sizeOfTooth = 5
+        for (n in 1..numberOfTeeth) {
+            for (y in 1..sizeOfTooth) {
                 for (x in 1..y) {
                     print("*")
                 }
@@ -182,11 +182,11 @@ Variante en structurant le code avec une fonction supplémentaire:
 
     fun main(args: Array<String>) {
         val sizeDiamond = 6
-        for (n in 1..sizeDiamond) {
-            printDiamondLine(sizeDiamond-y, (2*n)-1)
+        for (y in 1..sizeDiamond) {         // first half of diamond
+            printDiamondLine(sizeDiamond-y, (2*y)-1)
         }
-        for (n in sizeDiamond-1 downTo 1) {
-            printDiamondLine(sizeDiamond-y, (2*n)-1)
+        for (y in sizeDiamond-1 downTo 1) { // second half
+            printDiamondLine(sizeDiamond-y, (2*y)-1)
         }
     }
     ```
