@@ -3,10 +3,10 @@
 Pour ce cours d'introduction à la programmation, vous avez besoin d'un
 ordinateur avec les caractéristiques suivantes:
 
-- Microsoft Windows 10, 8, 7 (SP1), Apple macOS 10.11 (El Capitan) ou
+- Microsoft Windows 10, 8.1, Apple macOS 10.14 (Mojave) ou
   supérieur, ou GNU/Linux avec GNOME ou KDE desktop.
-- Au minimum 1 GB de mémoire vive (RAM); recommandé 2 GB.
-- Un disque dur (ou SSD) avec au minimum 500 MB d'espace libre pour installer
+- Au minimum 2 GB de mémoire vive (RAM); recommandé 8 GB.
+- Un disque dur (ou SSD) avec au minimum 2.5 GB d'espace libre pour installer
   les programmes et au minimum 1 GB pour les caches.
 - Un écran avec une résolution minimum de 1024x768.
 
