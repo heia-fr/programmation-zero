@@ -1,6 +1,6 @@
 site_name: Programmation Zéro
 site_description: Cours d'introduction à la programmation pour les étudiants de la HEIA-FR
-copyright: "Copyright &copy; 2018 Haute école d'ingénierie et d'architecture de Fribourg"
+copyright: "Copyright &copy; 2020 Haute école d'ingénierie et d'architecture de Fribourg"
 site_url: https://programmation-zero.tic.heia-fr.ch/
 google_analytics: ['UA-124597956-1', 'auto']
 
@@ -27,6 +27,7 @@ nav:
   - Les éléments chimiques: elements.md
   - Besoin de plus d'argent ?: more_money.md
   - Données: data.md
+  - Resources supplémentaires: ressources.md
 
 theme: 'material'
 
