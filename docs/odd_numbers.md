@@ -118,7 +118,7 @@ Notez que pour ajouter 2 à `i` (on dit aussi *incrémenter* `i` de 2), nous avo
 
     <center>
         **Oubliez maintenant ces codes!**<br>
-        <img src="../images/neuralizer.jpg" width="400">
+        <img src="../images/delete.jpg" width="400">
     </center>
 
 
