@@ -14,6 +14,7 @@ nav:
   - Les sommes de contrôle: checksum.md
   - Les tours de Hanoï: hanoi.md
   - Les nombres à l'envers: reverse.md
+  - La factorisation des nombres: factorization.md
   - Le PGCD: euclid.md
   - Les bases 2 et 10: bases.md
   - Les œuvres d'art: art.md

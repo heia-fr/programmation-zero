@@ -178,6 +178,53 @@ Notez que pour ajouter 2 à `i` (on dit aussi *incrémenter* `i` de 2), nous avo
         }
         ```
 
+!!! note "Exercice"
+    Ecrivez une programme qui affiche le résultat du "jeu" [Fizz Buzz](https://en.wikipedia.org/wiki/Fizz_buzz).
+    Votre programme affiche les nombres entiers de 1 à 100, mais si le nombre est divisible par 3, alors le programme affiche
+    `fizz`, si le nombre est divisible par 5, le programme affiche `buzz` et si le nombre est divisible par 3 **et** par 5,
+    alors le programme affiche `fizz buzz`.
+
+    Voici ce que ça donne pour les premiers nombres:
+
+    ```
+    1
+    2
+    fizz
+    4
+    buzz
+    fizz
+    7
+    8
+    fizz
+    buzz
+    11
+    fizz
+    13
+    14
+    fizz buzz
+    16
+    17
+    ...
+    ```
+
+    ??? success "Solution"
+        ``` kotlin
+        fun main(args: Array<String>) {
+            for (i: Int in 1..100) {
+                if (i % 3 == 0 && i % 5 == 0) {
+                    println("fizz buzz")
+                } else if (i % 3 == 0) {
+                    println("fizz")
+                } else if (i % 5 == 0) {
+                    println("buzz")
+                } else {
+                    println(i)
+                }
+            }
+        }
+        ```
+
+
 !!! tip "Avancé"
     Voici une solution élégante qui utilise les concepts de «stream» et d'«expression lambda».
 

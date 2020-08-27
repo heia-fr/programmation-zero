@@ -49,8 +49,8 @@ fun main(args: Array<String>) {
 Votre programme semble fonctionner, mais en êtes-vous bien sûr ? Une bonne pratique en génie logiciel[^1] est de bien tester son programme.
 Dans l'exemple de l'arrondi à 5 centimes, comment vérifier que le programme fonctionne comme demandé&nbsp;?
 
-A votre avis, quel devrait être l'arrondi à 5 centimes de 4.75 ? Vérifiez que votre programme donne le résultat attendu. Et
-quel devrait être l'arrondi à 5 centimes de -4.75 (nombre négatif)&nbsp;? Vérifiez à nouveau. Si votre programme ne donne pas le résultat attendu, est-ce votre programme qui est faux
+A votre avis, quel devrait être l'arrondi à 5 centimes de 4.725 ? Vérifiez que votre programme donne le résultat attendu. Et
+quel devrait être l'arrondi à 5 centimes de -4.725 (nombre négatif)&nbsp;? Vérifiez à nouveau. Si votre programme ne donne pas le résultat attendu, est-ce votre programme qui est faux
 ou la valueur attendue qui est fausse&nbsp;?
 
 !!! note "Exercice"
