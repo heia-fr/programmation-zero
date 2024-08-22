@@ -529,13 +529,13 @@ pytz = "*"
 
 [[package]]
 name = "mkdocs-glightbox"
-version = "0.3.7"
+version = "0.4.0"
 description = "MkDocs plugin supports image lightbox with GLightbox."
 optional = false
 python-versions = "*"
 files = [
-    {file = "mkdocs-glightbox-0.3.7.tar.gz", hash = "sha256:4e890140a97dd4ad128cb92174384bd0ac33adec3304bbd2b7c48d0847685c4f"},
-    {file = "mkdocs_glightbox-0.3.7-py3-none-any.whl", hash = "sha256:9659631a9829d93d8fb0ce3a20a10261c258605ba4dc87a3b7b5d847b93a276d"},
+    {file = "mkdocs-glightbox-0.4.0.tar.gz", hash = "sha256:392b34207bf95991071a16d5f8916d1d2f2cd5d5bb59ae2997485ccd778c70d9"},
+    {file = "mkdocs_glightbox-0.4.0-py3-none-any.whl", hash = "sha256:e0107beee75d3eb7380ac06ea2d6eac94c999eaa49f8c3cbab0e7be2ac006ccf"},
 ]
 
 [[package]]
@@ -658,13 +658,13 @@ test = ["mkdocs-material"]
 
 [[package]]
 name = "mkdocs-minify-plugin"
-version = "0.7.2"
+version = "0.8.0"
 description = "An MkDocs plugin to minify HTML, JS or CSS files prior to being written to disk"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "mkdocs-minify-plugin-0.7.2.tar.gz", hash = "sha256:6a551e22d6517eaef9e1890afd60021dc1dcd1255de02d266f588d1ace040713"},
-    {file = "mkdocs_minify_plugin-0.7.2-py3-none-any.whl", hash = "sha256:ae8bfc4a68806883e990ea025938b3f989da7b9fa08ea8390dba47adf25e0c5b"},
+    {file = "mkdocs-minify-plugin-0.8.0.tar.gz", hash = "sha256:bc11b78b8120d79e817308e2b11539d790d21445eb63df831e393f76e52e753d"},
+    {file = "mkdocs_minify_plugin-0.8.0-py3-none-any.whl", hash = "sha256:5fba1a3f7bd9a2142c9954a6559a57e946587b21f133165ece30ea145c66aee6"},
 ]
 
 [package.dependencies]
@@ -771,18 +771,19 @@ files = [
 
 [[package]]
 name = "platformdirs"
-version = "3.11.0"
-description = "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
+version = "4.2.2"
+description = "A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`."
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "platformdirs-3.11.0-py3-none-any.whl", hash = "sha256:e9d171d00af68be50e9202731309c4e658fd8bc76f55c11c7dd760d023bda68e"},
-    {file = "platformdirs-3.11.0.tar.gz", hash = "sha256:cf8ee52a3afdb965072dcc652433e0c7e3e40cf5ea1477cd4b3b1d2eb75495b3"},
+    {file = "platformdirs-4.2.2-py3-none-any.whl", hash = "sha256:2d7a1657e36a80ea911db832a8a6ece5ee53d8de21edd5cc5879af6530b1bfee"},
+    {file = "platformdirs-4.2.2.tar.gz", hash = "sha256:38b7b51f512eed9e84a22788b4bce1de17c0adb134d6becb09836e37d8654cd3"},
 ]
 
 [package.extras]
-docs = ["furo (>=2023.7.26)", "proselint (>=0.13)", "sphinx (>=7.1.1)", "sphinx-autodoc-typehints (>=1.24)"]
-test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=7.4)", "pytest-cov (>=4.1)", "pytest-mock (>=3.11.1)"]
+docs = ["furo (>=2023.9.10)", "proselint (>=0.13)", "sphinx (>=7.2.6)", "sphinx-autodoc-typehints (>=1.25.2)"]
+test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=7.4.3)", "pytest-cov (>=4.1)", "pytest-mock (>=3.12)"]
+type = ["mypy (>=1.8)"]
 
 [[package]]
 name = "pygments"
@@ -1230,4 +1231,4 @@ bracex = ">=2.1.1"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<=3.12"
-content-hash = "bfad3f37ebc5c74c883277fdd7a3a17f45bcdb8768dab870bc26e95d9bf3e8fb"
+content-hash = "2d25b036a15bfedc82776bbec71ecc2eec4dbac35b8cc92a1d03f2a8b190142f"
