@@ -1,63 +1,109 @@
+site_url: https://heia-fr.github.io/programmation-zero/
 site_name: Programmation Zéro
 site_description: Cours d'introduction à la programmation pour les étudiants de la HEIA-FR
-copyright: "Copyright &copy; 2020 Haute école d'ingénierie et d'architecture de Fribourg"
-site_url: https://programmation-zero.pages.forge.hefr.ch/
-google_analytics: ['UA-124597956-1', 'auto']
-
-nav:
-  - Introduction: index.md
-  - Installation: install.md
-  - Bonjour le monde: hello_world.md
-  - Les nombres impairs: odd_numbers.md
-  - La suite de Fibonacci: fibonacci.md
-  - L'arrondi à 5 centimes: five_cents.md
-  - Les sommes de contrôle: checksum.md
-  - Les tours de Hanoï: hanoi.md
-  - Les nombres à l'envers: reverse.md
-  - La factorisation des nombres: factorization.md
-  - Le PGCD: euclid.md
-  - Les bases 2 et 10: bases.md
-  - Les œuvres d'art: art.md
-  - Les nombres premiers: primes.md
-  - Les palindromes: palindromes.md
-  - Je cache un nombre et tu le devines: hide_a_number.md
-  #    - Tu caches un nombre et je le devine: guess_a_number.md
-  - La récursivité: recursivity.md
-  - Compter les lettres: letter_count.md
-  - Facebook Sticker: facebook.md
-  - Les éléments chimiques: elements.md
-  - Besoin de plus d'argent ?: more_money.md
-  - Données: data.md
-  - Ressources supplémentaires: resources.md
-
-theme: 'material'
-
-markdown_extensions:
-  - admonition
-  - footnotes
-  - codehilite
-  - pymdownx.arithmatex
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: python/name:pymdownx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
-#  - mdx_math
-
-extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+copyright: "Copyright &copy; {{ cal.today.year }} Haute école d'ingénierie et d'architecture of Fribourg"
 
 extra:
+  show_page_revision_on_all_pages: false
+
+  social:
+    - icon: material/web
+      link: https://www.heia-fr.ch/fr/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/heiafr.htafr
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/HEIAFR
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/school/heiafr/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/heiafr
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/user/eiafr
+
+theme:
+  name: material
+  language: "fr"
   palette:
-    primary: 'blue'
-    accent: 'orange'
+    # Palette toggle for light mode
+    - scheme: isc
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: "Roboto"
+    code: "IBM Plex Mono"
+  custom_dir: "overrides/"
+  icon:
+    logo: material/school
+  favicon: "assets/images/favicon.ico"
+  features:
+    - content.code.annotate
+    - navigation.instant
+    - navigation.tracking
+    - content.tabs.link
+    - content.code.copy
+
+extra_css:
+  - "stylesheets/extra.css"
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  admonition: {}
+  extra: {}
+  smarty:
+    smart_angled_quotes: true
+    substitutions:
+      left-angle-quote: "&laquo;&#xA0;"
+      right-angle-quote: "&#xA0;&raquo;"
+  mkdcomments: {}
+  footnotes: {}
+  codehilite: {}
+  pymdownx.arithmatex:
+    generic: true
+  pymdownx.betterem:
+    smart_enable: all
+  pymdownx.highlight: {}
+  pymdownx.caret: {}
+  pymdownx.critic: {}
+  pymdownx.details: {}
+  pymdownx.keys: {}
+  pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  pymdownx.inlinehilite: {}
+  pymdownx.magiclink: {}
+  pymdownx.mark: {}
+  pymdownx.smartsymbols: {}
+  pymdownx.superfences: {}
+  pymdownx.tabbed:
+    alternate_style: true
+  pymdownx.tasklist:
+    custom_checkbox: true
+  pymdownx.tilde: {}
+  mdx_math: {}
+  attr_list: {}
+  md_in_html: {}
+
+plugins:
+  - search
+  - git-revision-date-localized
+  - open-in-new-tab
+  - calendar
+  - jconfig:
+      items:
+        - copyright
+  - include-markdown:
+      opening_tag: "{!"
+      closing_tag: "!}"
+  - awesome-pages
+  - macros
+  - pages-j2

@@ -1,4 +1,6 @@
-# Données
+---
+title: Données
+---
 
 Vous trouverez ici quelques fichiers de données pour les exercices.
 

@@ -1,4 +1,6 @@
-# L'arrondi à 5 centimes  
+---
+title: L'arrondi à 5 centimes
+---
 
 <center>
 <img src="../images/CH_CHF0.05.png" width="200">

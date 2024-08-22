@@ -1,4 +1,6 @@
-# Les éléments chimiques
+---
+title: Les éléments chimiques
+---
 
 <center>
 <img src="../images/Periodic_table_large.jpg">

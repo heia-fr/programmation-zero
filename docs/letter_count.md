@@ -1,4 +1,6 @@
-# Compter les lettres
+---
+title: Compter les lettres
+---
 
 [Fichier avec le dictionnaire des mots français](/data/french.txt) 
 

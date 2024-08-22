@@ -1,4 +1,6 @@
-# La récursivité
+---
+title: La récursivité
+---
 
 !!! quote "Stephen Hawking"
     To understand recursion, one must

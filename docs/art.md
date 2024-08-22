@@ -1,4 +1,6 @@
-# Des œuvres d'art
+---
+title: Des œuvres d'art
+---
 
 !!! summary "Objectifs didactiques"
     * Gérer plusieures boucles imbriqués

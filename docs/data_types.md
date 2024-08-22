@@ -1,4 +1,6 @@
-# Les types de données.
+---
+title: Les types de données.
+---
 
 Le dictionnaire Larousse définit ainsi l'informatique:
 

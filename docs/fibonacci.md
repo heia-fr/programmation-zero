@@ -1,5 +1,6 @@
-# La suite de Fibonacci
-
+---
+title: La suite de Fibonacci
+---
 
 <center>
     <img src="../images/Fibonacci2.jpg" width="200">

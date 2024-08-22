@@ -1,4 +1,6 @@
-# Ressources supplémentaires
+---
+title: Ressources supplémentaires
+---
 
 Vous trouverez ici quelques liens vers des ressources supplémentaires sur Kotlin et sur la programmation
 

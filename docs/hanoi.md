@@ -1,4 +1,6 @@
-# Les tours de Hanoï
+---
+title: Les tours de Hanoï
+---
 
 <center>
 <img src="../images/Tower_of_Hanoi_4.gif" width="400">

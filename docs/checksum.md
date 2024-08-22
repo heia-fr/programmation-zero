@@ -1,4 +1,6 @@
-# Les sommes de contrôle  
+---
+title: Les sommes de contrôle  
+---
 
 !!! summary "Objectifs pédagogiques"
     * Expliquer l'utilité des sommes de contrôle.

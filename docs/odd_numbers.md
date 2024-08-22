@@ -1,4 +1,6 @@
-# Les nombres impairs
+---
+title: Les nombres impairs
+---
 
 !!! quote "Paul Verlaine (Art poétique)"
     De la musique avant toute chose,  

@@ -1,4 +1,6 @@
-# La factorisation des nombres
+---
+title: La factorisation des nombres
+---
 
 En mathématique, [factoriser](https://en.wikipedia.org/wiki/Factorization) un nombre consiste à le
 décomposer sous la forme d'un produit de plusieurs nombres. Par exemple, on peut _factoriser_ $15$ de la manière suivante:

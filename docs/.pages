@@ -1,0 +1,25 @@
+nav:
+    - index.md
+    - install.md
+    - hello_world.md
+    - odd_numbers.md
+    - fibonacci.md
+    - five_cents.md
+    - checksum.md
+    - hanoi.md
+    - reverse.md
+    - factorization.md
+    - euclid.md
+    - bases.md
+    - art.md
+    - primes.md
+    - palindromes.md
+    - hide_a_number.md
+    - guess_a_number.md
+    - recursivity.md
+    - letter_count.md
+    - facebook.md
+    - elements.md
+    - more_money.md
+    - data.md
+    - resources.md

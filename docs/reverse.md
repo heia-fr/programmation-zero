@@ -1,4 +1,6 @@
-# Les nombres à l'envers
+---
+title: Les nombres à l'envers
+---
 
 <center>
     <img src="../images/reverse.jpg" width="400">

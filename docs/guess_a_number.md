@@ -1,4 +1,6 @@
-# Tu caches un nombre et je le devine
+---
+title: Tu caches un nombre et je le devine
+---
 
 ``` kotlin
 fun main(args: Array<String>) {

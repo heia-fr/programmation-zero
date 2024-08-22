@@ -1,4 +1,6 @@
-# Les Nombres premiers
+---
+title: Les Nombres premiers
+---
 
 !!! summary "Objectifs didactiques"
     * Utilisation d'un tableau (array)

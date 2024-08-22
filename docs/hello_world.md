@@ -1,4 +1,6 @@
-# Hello World
+---
+title: Hello World
+---
 
 !!! summary "Objectifs pédagogiques"
     * Faire connaissance avec Kotlin.

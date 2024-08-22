@@ -1,4 +1,6 @@
-# Programmation Zéro
+---
+title: Introduction
+---
 
 Le cours *Programmation Zéro* est un cours de programmation qui s'adresse aux futurs étudiants des filières Intormatique et Télécommunications de la Haute école d'ingénierie et d'architecture de Fribourg. Aucune connaissance préalable n'est nécessaire pour commencer ce cours.
 

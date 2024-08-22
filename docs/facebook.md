@@ -1,4 +1,6 @@
-# Facebook sticker
+---
+title: Facebook sticker
+---
 
 <center>
 <img src="../images/facebook-logo.jpg">

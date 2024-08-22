@@ -1,4 +1,6 @@
-# Installation
+---
+title: Installation
+---
 
 Pour ce cours d'introduction à la programmation, vous avez besoin d'un
 ordinateur avec les caractéristiques suivantes:

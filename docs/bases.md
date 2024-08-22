@@ -1,4 +1,6 @@
-# Les bases
+---
+title: Les bases
+---
 
 <center>
 <img src="../images/binary.png" width="300">
