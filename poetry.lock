@@ -675,17 +675,20 @@ mkdocs = ">=1.4.1"
 
 [[package]]
 name = "mkdocs-open-in-new-tab"
-version = "1.0.3"
+version = "1.0.5"
 description = "MkDocs plugin to open outgoing links and PDFs in new tab."
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "mkdocs-open-in-new-tab-1.0.3.tar.gz", hash = "sha256:a40231901b12f01a1d4b798112712d475741356e550d8f3adf3ca23e332a7d2c"},
-    {file = "mkdocs_open_in_new_tab-1.0.3-py3-none-any.whl", hash = "sha256:e2ddfa02f53d7c16d8430f5c0b3d98c4b98c82e1b8aa6fbdc91c78e89bbeb5f1"},
+    {file = "mkdocs_open_in_new_tab-1.0.5-py3-none-any.whl", hash = "sha256:82114617f8fcd43859e7151bddf05950cc27dcc8682bc82c001ffec37353f344"},
+    {file = "mkdocs_open_in_new_tab-1.0.5.tar.gz", hash = "sha256:319c8a394d6a1d079b1524177c0256559bf5f8d1aa0ea32c28d80dc308962193"},
 ]
 
 [package.dependencies]
 mkdocs = "*"
+
+[package.extras]
+dev = ["build (>=1.2.2,<1.3.0)", "mkdocs-git-revision-date-localized-plugin (>=1.2.6,<1.3.0)", "mkdocs-glightbox (>=0.4.0,<0.5.0)", "mkdocs-material (>=9.5.27,<9.6.0)", "setuptools (>=70.0.0,<70.1.0)", "twine (>=5.1.1,<5.2.0)"]
 
 [[package]]
 name = "mkdocs-pages-j2-plugin"
@@ -1231,4 +1234,4 @@ bracex = ">=2.1.1"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<=3.12"
-content-hash = "2d25b036a15bfedc82776bbec71ecc2eec4dbac35b8cc92a1d03f2a8b190142f"
+content-hash = "ae69b3314853f332d9d8bd6969e07846911a97e60be922e4ce9f3f5b3045350a"
