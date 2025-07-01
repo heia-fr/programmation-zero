@@ -17,7 +17,7 @@ en espérant que ça va fonctionner. Un bon programmeur à dévelopé sa « [pen
 
 ## Communauté
 
-Si vous avez des questions pendant l'académie d'été, ou même pendant le semestre, vous pouvez nous joindre sur le "team" [heiafr_prog_zero](https://keybase.io/team/heiafr_prog_zero) de [Keybase](https://keybase.io).
+Si vous avez des questions pendant l'académie d'été, ou même pendant le semestre, vous pouvez nous joindre dans le salon _[Programmation-Zéro](https://discord.gg/GNV2uzz23P)_ du **serveur discord** de la Haute école d'ingénierie et d'architecture de Fribourg.
 
 ## Ressources
 
