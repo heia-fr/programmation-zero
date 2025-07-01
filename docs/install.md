@@ -43,6 +43,6 @@ l'installer séparément.
 
 Si dans un autre contexte vous avez besoin du compilateur Java, vous pouvez le
 [télécharger](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
-gratuitement depuis le site Internet d’Oracle ou utiliser des versions
+gratuitement depuis le site Internet d'Oracle ou utiliser des versions
 alternatives telles que [AdoptOpenJDK](https://adoptopenjdk.net/) ou [Amazon
 Corretto](https://aws.amazon.com/fr/corretto/).

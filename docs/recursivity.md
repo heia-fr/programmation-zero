@@ -8,7 +8,7 @@ title: La récursivité
 
 La récursivité est une des techniques de programmation les plus employés et populaires.
 Elle apparait quand on met en relation une entité avec elle-même, par exemple la
-[suite de Fibonacci](fibonacci.md) est définis en fonction d’ elle-même :
+[suite de Fibonacci](fibonacci.md) est définis en fonction d' elle-même :
 
 $$
 \begin{aligned}
