@@ -2,7 +2,7 @@ prefix := "/"
 
 serve:
     #!/usr/bin/env bash
-    poetry run mkdocs serve
+    uv run properdocs serve
 
 clean:
     #!/usr/bin/env bash

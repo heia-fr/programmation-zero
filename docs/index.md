@@ -29,4 +29,4 @@ Pour quelques exercices, vous aurez besoin de liste de mots ou de données spéc
 
 Ce site à été créé en 2017 par Jacques Supcik. Le contenu à été complété par Sylvain Julmy, Damien Goetschi et Sandy Ingram. Merci aussi à Frédéric Bapst, Rudolf Scheurer, Philippe Joye et Serge Ayer, pour leurs commentaires constructifs.
 
-Ce site est fait avec [MkDocs](https://www.mkdocs.org/) et [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). Le code source du site est à disposition sur [gitlab.com](https://gitlab.com/HEIA-FR/programmation-zero/site).
+Ce site est fait avec [Properdocs](https://properdocs.org/) et [MaterialX](https://jaywhj.github.io/mkdocs-materialx/index.html). Le code source du site est à disposition sur [github.com](https://github.com/heia-fr/programmation-zero).
