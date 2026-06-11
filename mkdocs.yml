@@ -22,7 +22,7 @@ extra:
 
 theme:
   name: material
-  language: "fr"
+  language: 'fr'
   palette:
     # Palette toggle for light mode
     - scheme: isc
@@ -35,12 +35,12 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: "Roboto"
-    code: "IBM Plex Mono"
-  custom_dir: "overrides/"
+    text: 'Roboto'
+    code: 'IBM Plex Mono'
+  custom_dir: 'overrides/'
   icon:
     logo: material/school
-  favicon: "assets/images/favicon.ico"
+  favicon: 'assets/images/favicon.ico'
   features:
     - content.code.annotate
     - navigation.instant
@@ -49,11 +49,10 @@ theme:
     - content.code.copy
 
 extra_css:
-  - "stylesheets/extra.css"
+  - 'stylesheets/extra.css'
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
@@ -62,8 +61,8 @@ markdown_extensions:
   smarty:
     smart_angled_quotes: true
     substitutions:
-      left-angle-quote: "&laquo;&#xA0;"
-      right-angle-quote: "&#xA0;&raquo;"
+      left-angle-quote: '&laquo;&#xA0;'
+      right-angle-quote: '&#xA0;&raquo;'
   mkdcomments: {}
   footnotes: {}
   codehilite: {}
@@ -102,8 +101,8 @@ plugins:
       items:
         - copyright
   - include-markdown:
-      opening_tag: "{!"
-      closing_tag: "!}"
+      opening_tag: '{!'
+      closing_tag: '!}'
   - awesome-pages
   - macros
   - pages-j2
