@@ -5,6 +5,7 @@ copyright: "Copyright &copy; {{ cal.today.year }} Haute école d'ingénierie et 
 
 repo_url: https://github.com/heia-fr/programmation-zero
 repo_name: heia-fr/programmation-zero
+edit_uri: ''
 
 extra:
   show_page_revision_on_all_pages: false
