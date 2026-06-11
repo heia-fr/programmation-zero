@@ -3,6 +3,9 @@ site_name: Programmation Zéro
 site_description: Cours d'introduction à la programmation pour les étudiants de la HEIA-FR
 copyright: "Copyright &copy; {{ cal.today.year }} Haute école d'ingénierie et d'architecture of Fribourg"
 
+repo_url: https://github.com/heia-fr/programmation-zero
+repo_name: heia-fr/programmation-zero
+
 extra:
   show_page_revision_on_all_pages: false
 
