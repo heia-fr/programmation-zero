@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 	var stat: HashMap<Char, Int> = HashMap<Char, Int>()
 	
 	fun addLine(s: String): Unit {
-		for (c in s.toLowerCase()) {
+		for (c in s.lowercase()) {
 			if (c.isLetter()) {
 				stat.set(c, stat.getOrDefault(c, 0) + 1)
 			}

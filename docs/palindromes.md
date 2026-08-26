@@ -48,7 +48,7 @@ supprimer les espaces et les caractères inconnus
 
 ``` kotlin
 fun String.sanitize(): String {
-	return this.toLowerCase().filter{c -> c.isLetter()}
+	return this.lowercase().filter{c -> c.isLetter()}
 }
 	
 fun main(args: Array<String>) {
@@ -70,7 +70,7 @@ import java.io.File
 const val wordlist = "data/french.txt"
 
 fun String.sanitize(): String {
-	return this.toLowerCase().filter{c -> c.isLetter()}
+	return this.lowercase().filter{c -> c.isLetter()}
 }
 
 fun String.isPalindrome(): Boolean {

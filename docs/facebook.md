@@ -37,12 +37,12 @@ Voici une première solution :
 fun solve(sticker: String, text: String): Int {
     val sm = HashMap<Char, Int>()
     val tm = HashMap<Char, Int>()
-    for (c in sticker.toLowerCase()) {
+    for (c in sticker.lowercase()) {
         if (c >= 'a' && c <= 'z') {
             sm.set(c, sm.getOrDefault(c, 0) + 1)
         }
     }
-    for (c in text.toLowerCase()) {
+    for (c in text.lowercase()) {
         if (c >= 'a' && c <= 'z') {
             tm.set(c, sm.getOrDefault(c, 0) + 1)
         }
@@ -95,7 +95,7 @@ Voici une nouvelle version qui corrige ces erreurs:
 ``` kotlin
 fun textToMap(text: String): HashMap<Char, Int> {
     val result = HashMap<Char, Int>()
-    for (c in text.toLowerCase()) {
+    for (c in text.lowercase()) {
         if (c.isLetter()) {
             result[c] = result.getOrDefault(c, 0) + 1
         }
@@ -139,7 +139,7 @@ class Sticker(text: String) {
     companion object {
         fun textToMap(text: String): HashMap<Char, Int> {
             val result = HashMap<Char, Int>()
-            for (c in text.toLowerCase()) {
+            for (c in text.lowercase()) {
                 if (c.isLetter()) {
                     result[c] = result.getOrDefault(c, 0) + 1
                 }
